@@ -1,0 +1,1732 @@
+<title>La Barbería Shop · Les Corts, Barcelona</title>
+<link rel="icon" type="image/png" href="img/favicon.png">
+<meta name="description" content="Barbería en Les Corts, Barcelona. Posiblemente el mejor degradado de Les Corts: 2.693 reseñas de 5 estrellas. Abierto los 7 días de 9 a 21 h. Reserva tu Primer Fade.">
+<meta name="theme-color" content="#0c0b0a">
+<meta property="og:title" content="La Barbería Shop · El mejor degradado de Les Corts">
+<meta property="og:description" content="2.693 reseñas de 5 estrellas. Abierto los 7 días de 9 a 21 h en Carrer de Benavent, 2.">
+<meta property="og:image" content="img/hero-vip.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Inter:wght@400;500;600;700&family=Yellowtail&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BarberShop","name":"La Barbería Shop - Les Corts","image":"img/hero-vip.jpg","telephone":"+34677720442","priceRange":"€","paymentAccepted":"Cash","address":{"@type":"PostalAddress","streetAddress":"Carrer de Benavent, 2","addressLocality":"Barcelona","postalCode":"08028","addressRegion":"Catalunya","addressCountry":"ES"},"geo":{"@type":"GeoCoordinates","latitude":41.3777875,"longitude":2.1256107},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"09:00","closes":"21:00"}],"sameAs":["https://www.instagram.com/labarberiashopstudio/","https://booksy.com/es-es/123003_la-barberia-shop-les-corts_barberia_48863_barcelona"],"foundingDate":"2017"}
+</script>
+<style>
+  /* Dark, warm and premium, taken from the shop itself: matte black walls, hexagonal LED ceiling,
+     gold-and-black "VIP" capes, cream ornamental logo, cream/red script lettering on the door.
+     --gold is the cape gold (fills, buttons); --cream is the logo ink (text on dark);
+     --red is the door-script shadow, used only for tiny accents.
+     Type: Big Shoulders Display (condensed, street-sign feel) for headlines, Inter for reading,
+     Yellowtail script echoing the door lettering, used for one or two words at most.
+     Radius rule: panels 24px, media inside 16px, buttons and chips full pill. */
+  :root {
+    color-scheme: dark;
+    --bg: #0c0b0a;
+    --bg-2: #131210;
+    --panel: #181614;
+    --panel-2: #201e1b;
+    --ink: #f4ede1;
+    --cream: #eee2ce;
+    --muted: #a69e90;
+    --line: rgba(238, 226, 206, .12);
+    --gold: #cfa94e;
+    --gold-2: #e2c071;
+    --gold-ink: #15120c;
+    --gold-soft: rgba(207, 169, 78, .14);
+    --red: #c4493e;
+    --shadow: 0 1px 0 rgba(255,255,255,.04) inset, 0 24px 60px -24px rgba(0,0,0,.8);
+    --shadow-lg: 0 40px 90px -30px rgba(0,0,0,.9);
+    --r: 24px;
+    --r-sm: 16px;
+    --ease: cubic-bezier(.22, 1, .36, 1);
+    --display: "Big Shoulders Display", "Arial Narrow", Impact, sans-serif;
+    --body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    --script: "Yellowtail", "Brush Script MT", cursive;
+    --wrap: 1200px;
+    --gut: clamp(16px, 4vw, 40px);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 76px; background: var(--bg); }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.0625rem/1.6 var(--body); letter-spacing: -0.005em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow-x: clip; }
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: inherit; }
+  h1, h2, h3 { margin: 0; text-wrap: balance; }
+  h2 { font: 800 clamp(2.6rem, 1.4rem + 4.6vw, 5.4rem)/.92 var(--display); text-transform: uppercase; letter-spacing: -0.005em; }
+  h2 .hl, h1 .hl { color: var(--gold); }
+  h3 { font: 700 1.6rem/1.05 var(--display); text-transform: uppercase; letter-spacing: .01em; }
+  p { margin: 0; text-wrap: pretty; }
+  .wrap { max-width: var(--wrap); margin-inline: auto; padding-inline: var(--gut); }
+  .section { padding-block: clamp(88px, 11vw, 160px); }
+  .alt { background: var(--bg-2); }
+  .center { text-align: center; }
+  .center .lead { margin-inline: auto; }
+  h2 + .lead { margin-top: 22px; }
+  .lead { font-size: clamp(1.1rem, 1rem + .35vw, 1.28rem); line-height: 1.5; color: var(--muted); max-width: 54ch; }
+  .eyebrow { display: inline-flex; align-items: center; gap: 10px; font: 600 .78rem/1 var(--body); letter-spacing: .18em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; }
+  .eyebrow::before { content: ""; width: 26px; height: 1.5px; background: currentColor; }
+  .center .eyebrow::after { content: ""; width: 26px; height: 1.5px; background: currentColor; }
+  .script { font-family: var(--script); text-transform: none; font-weight: 400; letter-spacing: 0; }
+  .ic { width: 1.25em; height: 1.25em; flex: none; fill: currentColor; }
+
+  /* Buttons */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: .55em; padding: 1em 1.55em; border-radius: 999px; font: 600 1rem/1 var(--body); letter-spacing: -0.005em; text-decoration: none; white-space: nowrap; border: 0; cursor: pointer; transition: transform .45s var(--ease), background-color .2s, box-shadow .45s var(--ease), color .2s; }
+  .btn:active { transform: scale(.97); transition-duration: .1s; }
+  .btn-gold { background: var(--gold); color: var(--gold-ink); box-shadow: 0 10px 30px -10px rgba(207,169,78,.55); }
+  .btn-gold:hover { background: var(--gold-2); box-shadow: 0 14px 40px -10px rgba(207,169,78,.7); }
+  .btn-ghost { color: var(--cream); background: transparent; box-shadow: inset 0 0 0 1.5px rgba(238,226,206,.35); }
+  .btn-ghost:hover { background: rgba(238,226,206,.07); box-shadow: inset 0 0 0 1.5px var(--cream); }
+  .btn .ic { width: 1.15em; height: 1.15em; }
+  .btn .price { padding-left: .7em; margin-left: .15em; border-left: 1px solid rgba(21,18,12,.25); font-variant-numeric: tabular-nums; }
+  .link { display: inline-flex; align-items: center; gap: 6px; color: var(--gold); font-weight: 600; text-decoration: none; }
+  .link:hover { text-decoration: underline; text-underline-offset: 4px; }
+  :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 8px; }
+
+  /* Header: dark translucent material */
+  .top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 30; background: rgba(12, 11, 10, .62); backdrop-filter: saturate(160%) blur(18px); -webkit-backdrop-filter: saturate(160%) blur(18px); box-shadow: 0 1px 0 transparent; transition: box-shadow .3s, background-color .3s; }
+  .top.scrolled { box-shadow: 0 1px 0 var(--line); background: rgba(12, 11, 10, .8); }
+  .top .wrap { display: flex; align-items: center; gap: 26px; height: 68px; }
+  .logo { display: flex; align-items: center; flex: none; text-decoration: none; }
+  .logo img { height: 52px; width: auto; }
+  .nav { display: flex; gap: 26px; margin-left: auto; }
+  .nav a { text-decoration: none; font-size: .9rem; font-weight: 500; color: var(--ink); opacity: .72; transition: opacity .2s, color .2s; }
+  .nav a:hover { opacity: 1; color: var(--gold); }
+  .top .btn { padding: .72em 1.15em; font-size: .88rem; }
+  .menu-btn { display: none; width: 44px; height: 44px; border-radius: 999px; border: 0; background: transparent; color: var(--ink); place-items: center; cursor: pointer; }
+  .menu-btn .ic { width: 24px; height: 24px; }
+  .mobile-nav { display: none; }
+  @media (max-width: 960px) {
+    .nav, .top .btn { display: none; }
+    .menu-btn { display: grid; }
+    .mobile-nav { padding: 6px var(--gut) 28px; }
+    .mobile-nav.open { display: grid; }
+    .mobile-nav a { padding: 12px 0; text-decoration: none; font: 800 2rem/1.05 var(--display); text-transform: uppercase; border-bottom: 1px solid var(--line); }
+  }
+  @media (prefers-reduced-transparency: reduce) { .top, .bar { background: var(--bg); backdrop-filter: none; -webkit-backdrop-filter: none; } }
+
+  /* Language switcher */
+  .lang { display: inline-flex; gap: 2px; padding: 3px; border-radius: 999px; background: rgba(238,226,206,.07); flex: none; }
+  .lang button { font: 600 .72rem/1 var(--body); letter-spacing: .06em; color: var(--muted); background: transparent; border: 0; padding: .6em .72em; border-radius: 999px; cursor: pointer; transition: background-color .25s, color .25s; }
+  .lang button:hover { color: var(--ink); }
+  .lang button[aria-pressed="true"] { background: var(--cream); color: var(--gold-ink); }
+  @media (max-width: 960px) { .lang { margin-left: auto; } }
+
+  /* Hero: the door's own slogan, with "Posiblemente" crossed out */
+  .hero { position: relative; padding-top: clamp(40px, 6vw, 80px); overflow: hidden; isolation: isolate; }
+  .hex { position: absolute; inset: -10% 0 auto; height: 120%; z-index: -1; opacity: .9; pointer-events: none; -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 18%, #000 20%, transparent 75%); mask-image: radial-gradient(ellipse 70% 60% at 50% 18%, #000 20%, transparent 75%); }
+  .hex svg { width: 100%; height: 100%; }
+  .hero-copy { text-align: center; }
+  .hero h1 { font: 900 clamp(3.4rem, 1rem + 10.4vw, 10.5rem)/.84 var(--display); text-transform: uppercase; letter-spacing: -0.01em; max-width: 11ch; margin-inline: auto; }
+  .maybe { position: relative; display: block; width: fit-content; margin: 0 auto .08em; font: 400 clamp(2.4rem, 1.2rem + 4.4vw, 5.4rem)/1 var(--script); text-transform: none; color: var(--cream); text-shadow: 3px 3px 0 var(--red); }
+  .maybe::after { content: ""; position: absolute; left: -6%; right: -6%; top: 54%; height: .09em; min-height: 4px; background: var(--gold); border-radius: 4px; transform: rotate(-4deg) scaleX(1); transform-origin: left center; box-shadow: 0 0 18px rgba(207,169,78,.6); }
+  html.motion .hero h1:not(.struck) .maybe::after { transform: rotate(-4deg) scaleX(0); }
+  html.motion .hero h1 .maybe::after { transition: transform .8s cubic-bezier(.7, 0, .2, 1); }
+  .hero .lead { margin: 28px auto 0; max-width: 40ch; color: #c9c1b3; }
+  .hero .ctas { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 34px; }
+  .rating { display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 8px 14px; margin-top: 26px; font-size: .9rem; color: var(--muted); }
+  .rating .stars { display: inline-flex; gap: 2px; color: var(--gold); }
+  .rating .stars .ic { width: 15px; height: 15px; }
+  .rating b { color: var(--ink); font-weight: 600; }
+  .rating .dot { width: 4px; height: 4px; border-radius: 9px; background: var(--muted); opacity: .5; }
+
+  .trio { display: grid; grid-template-columns: 1fr 1.55fr 1fr; gap: clamp(12px, 2vw, 24px); align-items: end; margin-top: clamp(52px, 6vw, 80px); }
+  .trio > img { width: 100%; object-fit: cover; border-radius: var(--r); box-shadow: var(--shadow-lg); aspect-ratio: 4 / 5; object-position: center 22%; margin-bottom: clamp(24px, 4vw, 56px); }
+  .trio .t2 { position: relative; aspect-ratio: 4 / 4.3; border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow-lg); will-change: transform; }
+  .trio .t2 img { width: 100%; height: 100%; object-fit: cover; object-position: center 40%; }
+  .trio .t2 .veil { position: absolute; inset: 0; background: linear-gradient(to top, rgba(8,7,6,.85), rgba(8,7,6,.35)); opacity: 0; }
+  @media (max-width: 760px) {
+    .trio { grid-template-columns: 1fr 1fr; }
+    .trio .t2 { grid-column: span 2; order: -1; aspect-ratio: 4 / 3.6; }
+    .trio > img { margin-bottom: 0; aspect-ratio: 1; }
+  }
+  .stage-cap { display: none; }
+  html.motion .stage-cap { display: grid; place-items: center; position: absolute; top: 0; left: 0; right: 0; height: 100vh; height: 100dvh; z-index: 3; pointer-events: none; text-align: center; padding: var(--gut); }
+  .stage-cap p { font: 900 clamp(3rem, 1.4rem + 6vw, 7.5rem)/.88 var(--display); text-transform: uppercase; color: var(--ink); max-width: 12ch; opacity: 0; text-wrap: balance; }
+  .stage-cap small { display: block; margin-top: 22px; font: 500 1.15rem/1.4 var(--body); text-transform: none; color: rgba(244,237,225,.85); }
+  .stage-cap .gold { color: var(--gold); }
+
+  /* Ticker: barber-pole band of words */
+  .ticker { position: relative; overflow: hidden; padding-block: 22px; border-block: 1px solid var(--line); background: var(--bg); }
+  .ticker .row { display: flex; width: max-content; gap: 0; animation: tick 38s linear infinite; }
+  .ticker span { display: inline-flex; align-items: center; gap: 28px; padding-right: 28px; font: 800 clamp(1.6rem, 1rem + 2vw, 2.6rem)/1 var(--display); text-transform: uppercase; color: transparent; -webkit-text-stroke: 1.2px rgba(238,226,206,.5); white-space: nowrap; }
+  .ticker span i { width: 10px; height: 10px; transform: rotate(45deg); background: var(--gold); flex: none; }
+  .ticker span b { color: var(--cream); -webkit-text-stroke: 0; font-weight: 800; }
+  @keyframes tick { to { transform: translateX(-50%); } }
+  .pole { height: 8px; background: repeating-linear-gradient(-45deg, var(--cream) 0 12px, var(--red) 12px 24px, var(--bg) 24px 30px, var(--gold) 30px 42px, var(--bg) 42px 48px); background-size: 68px 8px; animation: pole 2.4s linear infinite; opacity: .9; }
+  @keyframes pole { to { background-position: 68px 0; } }
+  @media (prefers-reduced-motion: reduce) { .ticker .row, .pole { animation: none; } }
+
+  /* Proof numbers */
+  .proof .wrap { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; text-align: center; }
+  .proof strong { display: block; font: 900 clamp(3.4rem, 2.2rem + 3.6vw, 6rem)/.9 var(--display); color: var(--cream); font-variant-numeric: tabular-nums; }
+  .proof strong em { font-style: normal; color: var(--gold); }
+  .proof span { display: block; margin: 14px auto 0; color: var(--muted); font-size: .98rem; line-height: 1.4; max-width: 20ch; }
+  @media (max-width: 860px) { .proof .wrap { grid-template-columns: 1fr 1fr; row-gap: 52px; } }
+
+  /* Offer: El Primer Fade, scroll story with a sticky photo */
+  .offer-head { display: grid; grid-template-columns: 1.2fr .8fr; gap: clamp(32px, 6vw, 96px); align-items: end; }
+  .offer-head .lead { margin-top: 0; }
+  .story { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 96px); margin-top: 64px; }
+  .story-media { position: sticky; top: 100px; height: calc(100dvh - 150px); max-height: 720px; }
+  .frame { position: relative; height: 100%; border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow-lg); background: var(--panel); }
+  .frame img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transform: scale(1.08); transition: opacity .9s var(--ease), transform 1.6s var(--ease); }
+  .frame img.on { opacity: 1; transform: none; }
+  .frame::after { content: ""; position: absolute; inset: auto 0 0; height: 40%; background: linear-gradient(to top, rgba(8,7,6,.75), transparent); pointer-events: none; }
+  .frame .count { position: absolute; left: 26px; bottom: 24px; z-index: 2; color: var(--cream); font: 800 1.4rem/1 var(--display); letter-spacing: .04em; font-variant-numeric: tabular-nums; }
+  .frame .count b { color: var(--gold); }
+  .story-steps { list-style: none; margin: 0; padding: 0; }
+  .story-steps li { min-height: 52vh; display: grid; grid-template-columns: 56px 1fr; gap: 20px; align-content: center; transition: opacity .6s var(--ease); }
+  .story-steps li:first-child { min-height: 38vh; align-content: start; padding-top: 6vh; }
+  html.motion .story-steps li { opacity: .25; }
+  html.motion .story-steps li.on { opacity: 1; }
+  .story-steps .n { width: 56px; height: 56px; border-radius: 999px; display: grid; place-items: center; font: 800 1.5rem/1 var(--display); color: var(--gold); box-shadow: inset 0 0 0 1.5px rgba(207,169,78,.5); transition: background-color .5s, color .5s; }
+  .story-steps li.on .n { background: var(--gold); color: var(--gold-ink); }
+  .story-steps h3 { font-size: clamp(2rem, 1.4rem + 1.6vw, 2.9rem); line-height: .95; }
+  .story-steps p { margin-top: 12px; color: var(--muted); font-size: 1.1rem; max-width: 38ch; }
+  .story-steps .tag { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; padding: .45em .9em; border-radius: 999px; background: var(--gold-soft); color: var(--gold-2); font-size: .85rem; font-weight: 600; }
+  .story-steps .tag .ic { width: 15px; height: 15px; }
+  .story-steps .m { display: none; }
+  @media (max-width: 900px) {
+    .offer-head { grid-template-columns: 1fr; }
+    .story { grid-template-columns: 1fr; margin-top: 40px; }
+    .story-media { display: none; }
+    .story-steps li, .story-steps li:first-child { min-height: 0; padding: 0 0 44px; align-content: start; grid-template-columns: 48px 1fr; gap: 16px; }
+    .story-steps .n { width: 48px; height: 48px; font-size: 1.3rem; }
+    html.motion .story-steps li { opacity: 1; }
+    .story-steps .m { display: block; grid-column: 1 / -1; width: 100%; aspect-ratio: 16 / 11; object-fit: cover; border-radius: var(--r-sm); margin-top: 18px; }
+  }
+
+  /* Value stack: what you get vs what you pay */
+  .deal { display: grid; grid-template-columns: 1.1fr .9fr; margin-top: 56px; border-radius: var(--r); overflow: hidden; background: var(--panel); box-shadow: var(--shadow); border: 1px solid var(--line); }
+  .deal-list { padding: clamp(28px, 4vw, 52px); }
+  .deal-list h3 { font-size: 2.2rem; }
+  .deal-list ul { list-style: none; padding: 0; margin: 26px 0 0; }
+  .deal-list li { display: grid; grid-template-columns: 26px 1fr auto; gap: 14px; align-items: baseline; padding: 15px 0; border-top: 1px dashed rgba(238,226,206,.16); }
+  .deal-list li .ic { color: var(--gold); width: 20px; height: 20px; transform: translateY(4px); }
+  .deal-list li span:last-child { font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+  .deal-list li s { opacity: .6; margin-right: 8px; }
+  .deal-list li em { font-style: normal; color: var(--gold-2); font-weight: 600; }
+  .deal-pay { position: relative; display: grid; align-content: center; gap: 8px; padding: clamp(28px, 4vw, 52px); background: radial-gradient(120% 90% at 100% 0%, rgba(207,169,78,.22), transparent 60%), var(--panel-2); text-align: center; }
+  .deal-pay .was { color: var(--muted); font-size: 1rem; }
+  .deal-pay .was s { color: var(--ink); }
+  .deal-pay .now { font: 900 clamp(5rem, 3rem + 6vw, 8.5rem)/.85 var(--display); color: var(--gold); }
+  .deal-pay .now small { font-size: .42em; vertical-align: .9em; margin-left: 4px; }
+  .deal-pay p { color: var(--muted); max-width: 30ch; margin: 6px auto 18px; }
+  .deal-pay .btn { justify-self: center; }
+  .deal-pay .fine { font-size: .8rem; color: var(--muted); margin-top: 14px; }
+  @media (max-width: 860px) { .deal { grid-template-columns: 1fr; } }
+
+  .guarantee { margin-top: 24px; display: grid; grid-template-columns: auto 1fr; gap: 26px; align-items: center; border-radius: var(--r); padding: 30px 34px; background: var(--bg); border: 1px solid rgba(207,169,78,.35); }
+  .seal { position: relative; width: 92px; height: 92px; display: grid; place-items: center; color: var(--gold); }
+  .seal svg.ring { position: absolute; inset: 0; width: 100%; height: 100%; animation: spin 18s linear infinite; }
+  .seal svg.ring text { font: 700 9.4px/1 var(--body); letter-spacing: 2.2px; fill: var(--gold); text-transform: uppercase; }
+  .seal .ic { width: 34px; height: 34px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .seal svg.ring { animation: none; } }
+  .guarantee h3 { font-size: 1.9rem; }
+  .guarantee p { color: var(--muted); margin-top: 6px; max-width: 64ch; }
+  @media (max-width: 640px) { .guarantee { grid-template-columns: 1fr; } }
+
+  /* Menu board: the door's price list, made interactive */
+  .carta-head { display: grid; grid-template-columns: 1fr auto; gap: 28px; align-items: end; }
+  .tabs { display: inline-flex; flex-wrap: wrap; gap: 6px; padding: 5px; border-radius: 999px; background: var(--panel); border: 1px solid var(--line); }
+  .tabs button { font: 600 .9rem/1 var(--body); color: var(--muted); background: transparent; border: 0; padding: .8em 1.2em; border-radius: 999px; cursor: pointer; transition: background-color .3s, color .3s; }
+  .tabs button:hover { color: var(--ink); }
+  .tabs button[aria-selected="true"] { background: var(--cream); color: var(--gold-ink); }
+  .board { position: relative; margin-top: 44px; padding: clamp(26px, 4vw, 56px); border-radius: var(--r); background: var(--panel); border: 1px solid var(--line); overflow: hidden; }
+  .board::before { content: ""; position: absolute; inset: 0; background: radial-gradient(80% 60% at 0% 0%, rgba(238,226,206,.06), transparent 60%); pointer-events: none; }
+  .board-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 64px; }
+  .item { display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; padding: 18px 0; border-bottom: 1px dashed rgba(238,226,206,.14); transition: opacity .4s var(--ease), transform .4s var(--ease); }
+  .item .name { display: flex; align-items: baseline; gap: 12px; font: 700 1.5rem/1.05 var(--display); text-transform: uppercase; letter-spacing: .01em; }
+  .item .name::after { content: ""; flex: 1; border-bottom: 2px dotted rgba(238,226,206,.22); transform: translateY(-4px); min-width: 20px; }
+  .item .p { font: 800 1.6rem/1 var(--display); color: var(--gold); font-variant-numeric: tabular-nums; }
+  .item .d { grid-column: 1 / -1; display: flex; gap: 14px; flex-wrap: wrap; color: var(--muted); font-size: .92rem; }
+  .item .d span { display: inline-flex; align-items: center; gap: 6px; }
+  .item .d .ic { width: 15px; height: 15px; }
+  .item .badge { display: inline-flex; padding: .3em .7em; border-radius: 999px; background: var(--gold); color: var(--gold-ink); font: 700 .7rem/1.2 var(--body); letter-spacing: .06em; text-transform: uppercase; }
+  .item.dim { opacity: .18; }
+  .board-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; margin-top: 30px; color: var(--muted); font-size: .95rem; }
+  .board-foot .script { font-size: 1.8rem; color: var(--cream); text-shadow: 2px 2px 0 var(--red); }
+  @media (max-width: 860px) { .board-grid { grid-template-columns: 1fr; } .carta-head { grid-template-columns: 1fr; } }
+
+  /* Team */
+  .team-head { display: grid; grid-template-columns: 1fr .8fr; gap: 32px; align-items: end; }
+  .team { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 56px; }
+  .barber { position: relative; border-radius: var(--r); overflow: hidden; background: var(--panel); aspect-ratio: 3 / 4; isolation: isolate; text-decoration: none; }
+  .barber img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.05) brightness(.85); transform: scale(1.02); transition: filter .7s var(--ease), transform 1.2s var(--ease); }
+  .barber::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(8,7,6,.92) 0%, rgba(8,7,6,.15) 55%, transparent); z-index: 1; }
+  .barber:hover img, .barber:focus-visible img { filter: none; transform: scale(1.07); }
+  .barber .info { position: absolute; left: 0; right: 0; bottom: 0; z-index: 2; padding: 22px; }
+  .barber h3 { font-size: 2rem; }
+  .barber q { display: block; margin-top: 8px; font-size: .9rem; line-height: 1.45; color: #cfc6b7; quotes: "\201C" "\201D"; }
+  .barber .go { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; font-size: .85rem; font-weight: 600; color: var(--gold); opacity: 0; transform: translateY(8px); transition: opacity .4s, transform .5s var(--ease); }
+  .barber:hover .go, .barber:focus-visible .go { opacity: 1; transform: none; }
+  .barber .crown { position: absolute; top: 16px; left: 16px; z-index: 2; padding: .45em .85em; border-radius: 999px; background: var(--gold); color: var(--gold-ink); font: 700 .7rem/1.2 var(--body); letter-spacing: .06em; text-transform: uppercase; }
+  .barber.big { grid-column: span 2; grid-row: span 2; aspect-ratio: auto; }
+  .barber.big h3 { font-size: 3.4rem; }
+  .barber.big q { font-size: 1.05rem; max-width: 40ch; }
+  .barber.join { display: grid; align-content: end; padding: 22px; background: var(--gold); color: var(--gold-ink); }
+  .barber.join::after { display: none; }
+  .barber.join h3 { font-size: 2rem; }
+  .barber.join p { margin-top: 8px; font-size: .95rem; }
+  .barber.join .stat { font: 900 4.4rem/.9 var(--display); }
+  @media (hover: none) { .barber img { filter: none; } .barber .go { opacity: 1; transform: none; } }
+  @media (max-width: 960px) { .team { grid-template-columns: repeat(2, 1fr); } .team-head { grid-template-columns: 1fr; } }
+  @media (max-width: 520px) { .barber.big { grid-column: span 2; aspect-ratio: 4 / 5; } .barber.big h3 { font-size: 2.6rem; } .barber h3 { font-size: 1.6rem; } .barber .info { padding: 16px; } .barber q { display: none; } .barber.big q { display: block; } }
+
+  /* Full-bleed scene */
+  .scene { position: relative; min-height: 100vh; min-height: 100dvh; display: grid; align-items: end; overflow: hidden; border-radius: 0; isolation: isolate; will-change: transform; }
+  .scene > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; will-change: transform; }
+  .scene::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(to top, rgba(8,7,6,.95) 0%, rgba(8,7,6,.55) 45%, rgba(8,7,6,.2) 100%); }
+  .scene .inner { padding-inline: max(var(--gut), calc((100vw - var(--wrap)) / 2 + var(--gut))); padding-block: clamp(64px, 10vw, 140px); }
+  .scene h2 { max-width: 13ch; }
+  .scene .lead { color: #d4ccbd; margin-top: 22px; }
+  .chips { list-style: none; padding: 0; margin: 30px 0 0; display: flex; flex-wrap: wrap; gap: 10px; }
+  .chips li { display: inline-flex; align-items: center; gap: 8px; padding: .65em 1.1em; border-radius: 999px; background: rgba(238,226,206,.09); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid rgba(238,226,206,.16); font-weight: 500; font-size: .95rem; }
+  .chips li .ic { color: var(--gold); width: 18px; height: 18px; }
+
+  /* Work gallery: pinned horizontal run on desktop, swipe on mobile */
+  .works { padding-block: clamp(88px, 11vw, 160px) 0; overflow: hidden; }
+  .works-head { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: end; }
+  .works-head .hint { display: inline-flex; align-items: center; gap: 10px; color: var(--muted); font-size: .9rem; }
+  .htrack-wrap { margin-top: 48px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding-bottom: clamp(88px, 11vw, 160px); }
+  .htrack-wrap::-webkit-scrollbar { display: none; }
+  .htrack { display: flex; gap: 18px; width: max-content; padding-inline: max(var(--gut), calc((100vw - var(--wrap)) / 2 + var(--gut))); }
+  .htrack figure { position: relative; margin: 0; flex: none; width: clamp(260px, 26vw, 380px); aspect-ratio: 3 / 4; border-radius: var(--r); overflow: hidden; scroll-snap-align: center; background: var(--panel); }
+  .htrack figure:nth-child(3n+2) { width: clamp(300px, 34vw, 500px); aspect-ratio: 4 / 4.2; align-self: center; }
+  .htrack figure img { width: 100%; height: 100%; object-fit: cover; transition: transform 1.2s var(--ease); }
+  .htrack figure:hover img { transform: scale(1.05); }
+  .htrack figcaption { position: absolute; left: 16px; bottom: 14px; font: 800 1rem/1 var(--display); letter-spacing: .08em; color: var(--cream); text-shadow: 0 2px 12px rgba(0,0,0,.6); }
+  .cc-foot { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; padding-bottom: clamp(88px, 11vw, 160px); }
+  .cc-n { font: 800 1.6rem/1 var(--display); letter-spacing: .06em; color: var(--cream); font-variant-numeric: tabular-nums; min-width: 6ch; }
+  .cc-arrows { display: none; gap: 10px; }
+  .cc-arrows button { width: 54px; height: 54px; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); color: var(--cream); display: grid; place-items: center; cursor: pointer; transition: background-color .25s, color .25s, transform .2s; }
+  .cc-arrows button:hover { background: var(--gold); color: var(--gold-ink); }
+  .cc-arrows button:active { transform: scale(.94); }
+  .cc-arrows .cc-prev .ic { transform: rotate(180deg); }
+  .cc-cta { display: flex; align-items: center; gap: 18px; }
+  .cc-cta > span { font: 700 1.5rem/1 var(--display); text-transform: uppercase; }
+
+  /* Concave carousel: a wall of photos that curves around the viewer.
+     Each card sits on the inside of a cylinder and faces its centre; JS sets the transforms. */
+  .cc-on .htrack-wrap { position: relative; height: clamp(440px, 66vh, 680px); margin-top: 28px; padding: 0; overflow: hidden; scroll-snap-type: none; perspective: 900px; perspective-origin: 50% 50%; cursor: grab; touch-action: pan-y; user-select: none; -webkit-user-select: none; -webkit-mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent); mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent); }
+  .cc-on .htrack-wrap.grabbing { cursor: grabbing; }
+  .cc-on .htrack-wrap:focus-visible { outline: 2px solid var(--gold); outline-offset: -2px; }
+  .cc-on .htrack { position: absolute; inset: 0; width: auto; padding: 0; display: block; transform-style: preserve-3d; }
+  .cc-on .htrack figure, .cc-on .htrack figure:nth-child(3n+2) { position: absolute; left: 50%; top: 50%; width: var(--cw, 300px); height: calc(var(--cw, 300px) * 4 / 3); margin: calc(var(--cw, 300px) * -2 / 3) 0 0 calc(var(--cw, 300px) / -2); aspect-ratio: auto; align-self: auto; backface-visibility: hidden; -webkit-backface-visibility: hidden; will-change: transform, opacity; box-shadow: 0 30px 60px -30px rgba(0,0,0,.9); cursor: pointer; }
+  .cc-on .htrack figure::after { content: ""; position: absolute; inset: 0; background: #080706; opacity: var(--dim, 0); pointer-events: none; border-radius: inherit; }
+  .cc-on .htrack figure.front { box-shadow: 0 0 0 1.5px rgba(207,169,78,.7), 0 40px 80px -30px rgba(0,0,0,.95); cursor: grab; }
+  .cc-on .htrack figure img { pointer-events: none; -webkit-user-drag: none; transform: none !important; }
+  .cc-on .htrack figcaption { z-index: 1; }
+  .cc-on .cc-arrows { display: flex; }
+  html.motion.hpin .works { min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; justify-content: center; padding-block: 88px 0; }
+  html.motion.hpin .cc-foot { padding-bottom: 48px; }
+  html.motion.hpin .cc-on .htrack-wrap { height: min(66vh, 680px); }
+  @media (max-width: 700px) { .cc-on .htrack-wrap { height: 470px; perspective: 800px; } .cc-cta > span { display: none; } }
+
+  /* Kids & seniors */
+  .family { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(36px, 6vw, 96px); align-items: center; padding: clamp(32px, 5vw, 72px); border-radius: var(--r); background: var(--panel); border: 1px solid var(--line); overflow: hidden; }
+  .polaroid { position: relative; background: #f3ece0; padding: 14px 14px 64px; border-radius: 6px; box-shadow: var(--shadow-lg); transform: rotate(-3deg); max-width: 420px; margin-inline: auto; will-change: transform; }
+  .polaroid img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 3px; }
+  .polaroid .handle { position: absolute; left: 0; right: 0; bottom: 14px; text-align: center; font: 400 1.8rem/1 var(--script); color: #2a241b; }
+  .family h2 { font-size: clamp(2.4rem, 1.4rem + 3.2vw, 4.2rem); }
+  .family blockquote { margin: 26px 0 0; padding-left: 18px; border-left: 2px solid var(--gold); color: #d4ccbd; font-size: 1.05rem; }
+  .family blockquote cite { display: block; margin-top: 8px; font-style: normal; font-size: .88rem; color: var(--muted); }
+  .prices { list-style: none; padding: 0; margin: 28px 0 0; display: flex; flex-wrap: wrap; gap: 10px; }
+  .prices li { display: inline-flex; align-items: center; gap: 10px; padding: .65em 1.1em; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); font-weight: 500; font-size: .95rem; }
+  .prices li b { color: var(--gold); font-weight: 700; }
+  @media (max-width: 860px) { .family { grid-template-columns: 1fr; } .polaroid { max-width: 320px; } }
+
+  /* Reviews */
+  .rev-head { display: grid; grid-template-columns: 1fr auto; gap: clamp(28px, 5vw, 72px); align-items: end; }
+  .scores { display: flex; gap: 14px; flex-wrap: wrap; }
+  .score { display: grid; gap: 8px; padding: 22px 26px; border-radius: var(--r); background: var(--panel); border: 1px solid var(--line); min-width: 190px; }
+  .score strong { font: 900 clamp(3.4rem, 2.6rem + 2vw, 4.4rem)/.85 var(--display); }
+  .score .stars { display: inline-flex; gap: 2px; color: var(--gold); }
+  .score .stars .ic { width: 17px; height: 17px; }
+  .score span { color: var(--muted); font-size: .9rem; }
+  .score .src { font-weight: 600; color: var(--ink); font-size: .95rem; }
+  .marquee { margin-top: 52px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+  .marquee::-webkit-scrollbar { display: none; }
+  .track { display: flex; gap: 18px; width: max-content; padding: 6px max(var(--gut), calc((100vw - var(--wrap)) / 2 + var(--gut))) 24px; }
+  .rcard { scroll-snap-align: start; width: 370px; flex: none; display: flex; flex-direction: column; gap: 16px; padding: 28px; border-radius: var(--r); background: var(--panel); border: 1px solid var(--line); }
+  .rcard .stars { display: inline-flex; gap: 2px; color: var(--gold); }
+  .rcard .stars .ic { width: 15px; height: 15px; }
+  .rcard blockquote { margin: 0; font-size: 1.04rem; line-height: 1.55; color: var(--ink); }
+  .rcard figcaption { margin-top: auto; display: flex; align-items: center; gap: 12px; }
+  .rcard .av { width: 40px; height: 40px; border-radius: 999px; display: grid; place-items: center; background: var(--gold-soft); color: var(--gold); font-weight: 700; }
+  .rcard b { display: block; font-weight: 600; font-size: .95rem; }
+  .rcard small { color: var(--muted); font-size: .84rem; }
+  html.motion #opiniones .marquee { overflow: hidden; scroll-snap-type: none; -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
+  html.motion #opiniones .track { animation: revslide var(--dur, 120s) linear infinite; }
+  html.motion #opiniones .marquee:hover .track, html.motion #opiniones .marquee:focus-within .track, html.motion #opiniones .marquee.hold .track { animation-play-state: paused; }
+  @keyframes revslide { to { transform: translateX(var(--shift, -50%)); } }
+  .rev-more { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
+  @media (max-width: 860px) { .rev-head { grid-template-columns: 1fr; } .rcard { width: 290px; } .score { min-width: 0; flex: 1; } }
+
+  /* Club */
+  .club { display: grid; grid-template-columns: 1.15fr .85fr; gap: 18px; margin-top: 56px; }
+  .card { position: relative; padding: clamp(28px, 4vw, 48px); border-radius: var(--r); background: var(--panel); border: 1px solid var(--line); overflow: hidden; }
+  .card h3 { font-size: 2.4rem; }
+  .card p { color: var(--muted); margin-top: 12px; max-width: 46ch; }
+  .card .ic-lg { width: 52px; height: 52px; border-radius: 999px; display: grid; place-items: center; background: var(--gold-soft); color: var(--gold); margin-bottom: 22px; }
+  .card .ic-lg .ic { width: 26px; height: 26px; }
+  .card.gold { background: radial-gradient(120% 100% at 100% 0%, rgba(207,169,78,.28), transparent 55%), var(--panel-2); border-color: rgba(207,169,78,.35); }
+  .bono { display: flex; align-items: end; gap: 18px; flex-wrap: wrap; margin-top: 26px; }
+  .bono .big { font: 900 clamp(4.4rem, 3rem + 4vw, 6.6rem)/.82 var(--display); color: var(--gold); }
+  .bono .big small { font-size: .4em; vertical-align: 1em; }
+  .bono .was { color: var(--muted); padding-bottom: 8px; }
+  .bono .was s { color: var(--ink); }
+  .cuts { display: flex; gap: 8px; margin-top: 24px; }
+  .cuts span { flex: 1; height: 54px; border-radius: 12px; display: grid; place-items: center; background: rgba(238,226,206,.06); border: 1px solid var(--line); color: var(--cream); }
+  .cuts span .ic { width: 22px; height: 22px; }
+  .cuts span.free { background: var(--gold); color: var(--gold-ink); border-color: var(--gold); font: 800 .95rem/1 var(--display); letter-spacing: .06em; }
+  .card .btn { margin-top: 28px; }
+  @media (max-width: 860px) { .club { grid-template-columns: 1fr; } }
+
+  /* Steps */
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 56px; counter-reset: s; }
+  .step { padding: 30px; border-radius: var(--r); background: var(--panel); border: 1px solid var(--line); }
+  .step::before { counter-increment: s; content: "0" counter(s); display: block; font: 900 3.6rem/1 var(--display); color: transparent; -webkit-text-stroke: 1.2px var(--gold); margin-bottom: 18px; }
+  .step h3 { font-size: 1.8rem; }
+  .step p { color: var(--muted); margin-top: 8px; }
+  @media (max-width: 860px) { .steps { grid-template-columns: 1fr; } }
+
+  /* FAQ */
+  .faq-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(32px, 6vw, 96px); align-items: start; }
+  .faq-grid > div:first-child { position: sticky; top: 110px; }
+  .faq details { border-bottom: 1px solid var(--line); }
+  .faq summary { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 24px 0; cursor: pointer; font: 700 1.5rem/1.1 var(--display); text-transform: uppercase; letter-spacing: .01em; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary .ic { color: var(--gold); transition: transform .4s var(--ease); width: 22px; height: 22px; }
+  .faq details[open] summary .ic { transform: rotate(45deg); }
+  .faq details p { padding: 0 0 24px; color: var(--muted); max-width: 60ch; }
+  @media (max-width: 860px) { .faq-grid { grid-template-columns: 1fr; } .faq-grid > div:first-child { position: static; } }
+
+  /* Location */
+  .map-wrap { position: relative; margin-top: 52px; border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow-lg); min-height: 580px; background: var(--panel); border: 1px solid var(--line); }
+  .map-wrap iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; filter: grayscale(1) invert(.91) contrast(.88) brightness(.95); }
+  .map-shield { position: absolute; inset: 0; z-index: 1; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 24px; background: transparent; border: 0; cursor: pointer; }
+  .map-shield span { padding: .7em 1.2em; border-radius: 999px; background: rgba(12,11,10,.85); color: var(--ink); font-weight: 500; font-size: .9rem; opacity: 0; transition: opacity .3s; }
+  .map-shield:hover span, .map-shield:focus-visible span { opacity: 1; }
+  .map-wrap.live .map-shield { display: none; }
+  .pin { position: absolute; z-index: 1; left: 50%; top: 50%; width: 22px; height: 22px; margin: -11px 0 0 -11px; border-radius: 999px; background: var(--gold); box-shadow: 0 0 0 6px rgba(207,169,78,.25); pointer-events: none; }
+  .pin::after { content: ""; position: absolute; inset: -6px; border-radius: 999px; border: 2px solid var(--gold); animation: ping 2s var(--ease) infinite; }
+  @keyframes ping { from { transform: scale(.6); opacity: 1; } to { transform: scale(2.6); opacity: 0; } }
+  .map-wrap.live .pin { display: none; }
+  .map-card { position: absolute; z-index: 2; top: 24px; left: 24px; width: min(370px, calc(100% - 48px)); padding: 28px; border-radius: var(--r-sm); background: rgba(19,18,16,.92); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border: 1px solid var(--line); box-shadow: var(--shadow-lg); }
+  .map-card .logo-s { height: 74px; width: auto; margin-bottom: 16px; }
+  .map-card .addr { font-weight: 600; font-size: 1.08rem; line-height: 1.35; }
+  .map-card .sub { color: var(--muted); margin-top: 4px; font-size: .94rem; }
+  .hours { width: 100%; margin-top: 18px; border-collapse: collapse; font-size: .92rem; }
+  .hours td { padding: 7px 0; border-top: 1px solid var(--line); }
+  .hours td + td { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+  .hours tr.today td { color: var(--gold); font-weight: 600; }
+  .open-now { display: inline-flex; align-items: center; gap: 8px; margin-top: 14px; font-size: .9rem; font-weight: 600; }
+  .open-now i { width: 8px; height: 8px; border-radius: 999px; background: #3bbf7a; box-shadow: 0 0 0 4px rgba(59,191,122,.18); }
+  .open-now.closed i { background: var(--red); box-shadow: 0 0 0 4px rgba(196,73,62,.18); }
+  .map-card .btns { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+  .map-card .btn { padding: .78em 1.15em; font-size: .92rem; }
+  @media (max-width: 760px) {
+    .map-wrap { min-height: 0; display: flex; flex-direction: column; }
+    .map-wrap iframe { position: relative; height: 340px; order: 2; }
+    .map-shield, .pin { display: none; }
+    .map-card { position: relative; top: auto; left: auto; width: 100%; border-radius: 0; box-shadow: none; border: 0; order: 1; }
+  }
+
+  /* Booking: build your appointment */
+  .book { display: grid; grid-template-columns: 1.15fr .85fr; gap: 18px; margin-top: 56px; align-items: start; }
+  .builder { padding: clamp(24px, 4vw, 44px); border-radius: var(--r); background: var(--panel); border: 1px solid var(--line); }
+  .builder h3 { font-size: 1.5rem; color: var(--muted); }
+  .opts { display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 10px; margin-top: 16px; }
+  .opt { position: relative; }
+  .opt input { position: absolute; opacity: 0; pointer-events: none; }
+  .opt label { display: grid; gap: 6px; height: 100%; padding: 16px; border-radius: var(--r-sm); background: var(--bg); border: 1.5px solid var(--line); cursor: pointer; transition: border-color .25s, background-color .25s, transform .3s var(--ease); }
+  .opt label:active { transform: scale(.97); }
+  .opt label .ic { width: 22px; height: 22px; color: var(--gold); }
+  .opt label b { font: 700 1.25rem/1 var(--display); text-transform: uppercase; letter-spacing: .02em; }
+  .opt label small { color: var(--muted); font-size: .82rem; }
+  .opt input:checked + label { border-color: var(--gold); background: var(--gold-soft); }
+  .opt input:focus-visible + label { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .builder .sep { height: 1px; background: var(--line); margin: 28px 0; }
+  .who { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .who input { position: absolute; opacity: 0; pointer-events: none; }
+  .who label { display: inline-flex; align-items: center; gap: 8px; padding: .5em .95em .5em .5em; border-radius: 999px; background: var(--bg); border: 1.5px solid var(--line); cursor: pointer; font-weight: 500; font-size: .92rem; transition: border-color .25s, background-color .25s; }
+  .who label img { width: 30px; height: 30px; border-radius: 999px; object-fit: cover; }
+  .who label .any { width: 30px; height: 30px; border-radius: 999px; display: grid; place-items: center; background: var(--gold-soft); color: var(--gold); }
+  .who label .any .ic { width: 16px; height: 16px; }
+  .who input:checked + label { border-color: var(--gold); background: var(--gold-soft); }
+  .who input:focus-visible + label { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .first { display: flex; align-items: center; gap: 14px; margin-top: 24px; padding: 16px 18px; border-radius: var(--r-sm); background: var(--bg); border: 1.5px dashed rgba(207,169,78,.45); cursor: pointer; }
+  .first input { width: 22px; height: 22px; accent-color: var(--gold); flex: none; }
+  .first span { font-size: .95rem; }
+  .first b { color: var(--gold-2); }
+  .ticket { position: sticky; top: 100px; padding: clamp(24px, 4vw, 40px); border-radius: var(--r); background: var(--cream); color: var(--gold-ink); }
+  .ticket::before, .ticket::after { content: ""; position: absolute; left: 0; right: 0; height: 12px; background: radial-gradient(circle at 8px -2px, var(--bg) 8px, transparent 8.5px) 0 0 / 16px 12px repeat-x; }
+  .ticket::before { top: -1px; }
+  .ticket::after { bottom: -1px; transform: scaleY(-1); }
+  .ticket .lbl { font: 700 .74rem/1 var(--body); letter-spacing: .16em; text-transform: uppercase; opacity: .6; }
+  .ticket .svc { font: 800 2rem/1 var(--display); text-transform: uppercase; margin-top: 10px; min-height: 2em; }
+  .ticket .row { display: flex; justify-content: space-between; gap: 12px; padding: 12px 0; border-top: 1px dashed rgba(21,18,12,.25); font-size: .95rem; }
+  .ticket .row:first-of-type { margin-top: 18px; }
+  .ticket .total { display: flex; justify-content: space-between; align-items: end; margin-top: 8px; padding-top: 16px; border-top: 2px solid var(--gold-ink); }
+  .ticket .total b { font: 900 4rem/.8 var(--display); font-variant-numeric: tabular-nums; }
+  .ticket .save { color: #7a2c24; font-weight: 600; font-size: .9rem; min-height: 1.4em; margin-top: 10px; }
+  .ticket .btn { width: 100%; margin-top: 18px; }
+  .ticket .btn-dark { background: var(--gold-ink); color: var(--cream); }
+  .ticket .btn-dark:hover { background: #2a251c; }
+  .ticket .btn-line { background: transparent; color: var(--gold-ink); box-shadow: inset 0 0 0 1.5px rgba(21,18,12,.4); margin-top: 10px; }
+  .ticket .btn-line:hover { background: rgba(21,18,12,.06); }
+  .ticket .cash { display: flex; align-items: center; gap: 8px; justify-content: center; margin-top: 14px; font-size: .84rem; opacity: .7; }
+  .ticket .cash .ic { width: 16px; height: 16px; }
+  @media (max-width: 900px) { .book { grid-template-columns: 1fr; } .ticket { position: relative; top: auto; } }
+
+  /* Final call */
+  .final { position: relative; text-align: center; padding-block: clamp(100px, 14vw, 200px); overflow: hidden; isolation: isolate; }
+  .final > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; opacity: .35; filter: grayscale(1); }
+  .final::before { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(60% 60% at 50% 50%, rgba(12,11,10,.4), var(--bg) 85%); }
+  .final h2 { font-size: clamp(3rem, 1.4rem + 7vw, 8rem); max-width: 12ch; margin-inline: auto; }
+  .final .ctas { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 36px; }
+
+  /* Footer */
+  footer { padding-block: 64px 120px; border-top: 1px solid var(--line); color: var(--muted); font-size: .92rem; }
+  footer .wrap { display: grid; grid-template-columns: auto 1fr auto; gap: 40px; align-items: center; }
+  footer .logo img { height: 96px; }
+  footer .links { display: flex; flex-wrap: wrap; gap: 10px 22px; }
+  footer a { text-decoration: none; }
+  footer a:hover { color: var(--gold); }
+  footer .soc { display: flex; gap: 10px; }
+  footer .soc a { width: 44px; height: 44px; border-radius: 999px; display: grid; place-items: center; background: var(--panel); border: 1px solid var(--line); color: var(--ink); }
+  footer .copy { grid-column: 1 / -1; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding-top: 28px; border-top: 1px solid var(--line); font-size: .85rem; }
+  @media (max-width: 760px) { footer .wrap { grid-template-columns: 1fr; } }
+  @media (min-width: 761px) { footer { padding-bottom: 64px; } }
+
+  /* Mobile action bar */
+  .bar { position: fixed; z-index: 40; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom, 0px)); display: none; gap: 8px; padding: 8px; border-radius: 999px; background: rgba(24,22,20,.82); backdrop-filter: saturate(160%) blur(18px); -webkit-backdrop-filter: saturate(160%) blur(18px); border: 1px solid var(--line); box-shadow: 0 20px 40px -12px rgba(0,0,0,.8); transform: translateY(140%); transition: transform .6s var(--ease); }
+  .bar.show { transform: none; }
+  .bar .btn { flex: 1; padding: .95em 1em; font-size: .95rem; }
+  .bar .btn-ghost { flex: 0 0 auto; width: 52px; padding: 0; }
+  @media (max-width: 760px) { .bar { display: flex; } }
+
+  /* Motion: transform + opacity only */
+  @media (prefers-reduced-motion: no-preference) {
+    html.motion .rv { opacity: 0; transform: translateY(32px); transition: opacity 1s var(--ease), transform 1s var(--ease); transition-delay: calc(var(--d, 0) * 80ms); }
+    html.motion .rv.in { opacity: 1; transform: none; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  html.motion, html.lenis, html.lenis body { scroll-behavior: auto !important; }
+  html.lenis, html.lenis body { height: auto; }
+  .lenis.lenis-stopped { overflow: hidden; }
+
+  /* Intro curtain: logo, then a barber-pole loading bar */
+  .intro { display: none; }
+  html.motion .intro { display: grid; place-items: center; position: fixed; inset: 0; z-index: 100; background: var(--bg); }
+  .intro img { width: min(240px, 52vw); height: auto; opacity: 0; transform: scale(.94); }
+  .intro .bar-load { position: absolute; left: 50%; bottom: 16%; width: 160px; height: 6px; margin-left: -80px; background: rgba(238,226,206,.08); overflow: hidden; border-radius: 6px; }
+  .intro .bar-load i { position: absolute; inset: 0; background: repeating-linear-gradient(-45deg, var(--cream) 0 6px, var(--red) 6px 12px, var(--gold) 12px 18px); transform: scaleX(0); transform-origin: left; }
+
+  /* Chapter rail */
+  .rail { display: none; }
+  @media (min-width: 1360px) {
+    .rail { display: flex; flex-direction: column; gap: 14px; position: fixed; left: 20px; top: 50%; padding: 16px 16px 14px 12px; border-radius: 18px; background: rgba(24,22,20,.8); backdrop-filter: saturate(160%) blur(18px); -webkit-backdrop-filter: saturate(160%) blur(18px); border: 1px solid var(--line); transform: translateY(-50%); z-index: 20; font: 600 .7rem/1 var(--body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); opacity: 0; pointer-events: none; transition: opacity .5s var(--ease); }
+    .rail.show { opacity: 1; pointer-events: auto; }
+    .rail a { position: relative; display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; transition: color .3s; }
+    .rail a::before { content: ""; width: 14px; height: 1.5px; background: currentColor; opacity: .5; transition: width .5s var(--ease), opacity .3s; }
+    .rail a span { position: absolute; left: 40px; white-space: nowrap; padding: 7px 11px; border-radius: 999px; background: var(--panel-2); border: 1px solid var(--line); pointer-events: none; opacity: 0; transform: translateX(-6px); transition: opacity .35s, transform .5s var(--ease); }
+    .rail a.on { color: var(--gold); }
+    .rail a.on::before { width: 28px; opacity: 1; }
+    .rail:hover a span { opacity: 1; transform: none; }
+    .rail .pct { margin-top: 10px; font-variant-numeric: tabular-nums; color: var(--gold); }
+  }
+
+  /* Word-by-word heading reveal */
+  .w { display: inline-block; overflow: hidden; vertical-align: top; padding: .16em 0 .06em; margin: -.16em 0 -.06em; }
+  .w > span { display: inline-block; will-change: transform; }
+  .maybe .w { padding: 0 .2em .25em; margin: 0 -.2em -.25em; }
+</style>
+<script>if (!matchMedia("(prefers-reduced-motion: reduce)").matches) document.documentElement.classList.add("motion");</script>
+
+<!--ICONS-->
+
+<div class="intro" aria-hidden="true"><img src="img/logo.png" alt=""><span class="bar-load"><i></i></span></div>
+
+<nav class="rail" aria-label="Capítulos">
+  <a href="#oferta"><span>Primer Fade</span></a>
+  <a href="#carta"><span>Carta</span></a>
+  <a href="#equipo"><span>Barberos</span></a>
+  <a href="#local"><span>El local</span></a>
+  <a href="#trabajos"><span>Trabajos</span></a>
+  <a href="#opiniones"><span>Opiniones</span></a>
+  <a href="#club"><span>Club</span></a>
+  <a href="#reserva"><span>Reserva</span></a>
+  <b class="pct">0%</b>
+</nav>
+
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#inicio" aria-label="La Barbería Shop, inicio"><img src="img/logo.png" alt="La Barbería Shop Barcelona" width="52" height="52"></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#oferta">Primer Fade</a>
+      <a href="#carta">Carta</a>
+      <a href="#equipo">Barberos</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#club">Club</a>
+      <a href="#ubicacion">Dónde estamos</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma">
+      <button type="button" data-lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="ca" aria-pressed="false">CA</button>
+      <button type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="btn btn-gold" href="#reserva"><svg class="ic"><use href="#i-calendar-check"/></svg><span>Reservar</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mnav" aria-label="Abrir el menú"><svg class="ic"><use href="#i-list"/></svg></button>
+  </div>
+  <nav class="mobile-nav" id="mnav" aria-label="Menú móvil">
+    <a href="#oferta">Primer Fade</a>
+    <a href="#carta">Carta</a>
+    <a href="#equipo">Barberos</a>
+    <a href="#opiniones">Opiniones</a>
+    <a href="#club">Club</a>
+    <a href="#ubicacion">Dónde estamos</a>
+    <a href="#reserva">Reservar</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="hex" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg"><defs><pattern id="hx" width="84" height="145.5" patternUnits="userSpaceOnUse" patternTransform="scale(1.1)"><path d="M42 0 84 24.25v48.5L42 97 0 72.75v-48.5Z M42 97v48.5 M0 145.5" fill="none" stroke="rgba(238,226,206,.09)" stroke-width="1.4"/><path d="M0 72.75v48.5L42 145.5 M84 72.75v48.5L42 145.5" fill="none" stroke="rgba(238,226,206,.09)" stroke-width="1.4"/></pattern></defs><rect width="100%" height="100%" fill="url(#hx)"/></svg>
+    </div>
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="eyebrow rv">Barbería en Les Corts · Desde 2017</p>
+        <h1 class="rv"><span class="maybe">Posiblemente</span> el mejor <span class="hl">degradado</span> de Les Corts.</h1>
+        <p class="lead rv">En la puerta pone «posiblemente». 2.693 reseñas de cinco estrellas dicen que sobra la palabra.</p>
+        <div class="ctas rv">
+          <a class="btn btn-gold" href="#oferta"><svg class="ic"><use href="#i-scissors"/></svg><span>Quiero mi Primer Fade</span><span class="price">17 €</span></a>
+          <a class="btn btn-ghost" href="#carta"><span>Ver la carta</span></a>
+        </div>
+        <div class="rating rv">
+          <span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span>
+          <span><b>4,9</b> Google</span><i class="dot"></i><span><b>5,0</b> Booksy</span><i class="dot"></i><span><b>2.693</b> reseñas</span>
+        </div>
+      </div>
+      <div class="trio">
+        <img class="t1" src="img/hero-curly.jpg" alt="Cliente con rizos y degradado bajo con la capa dorada de la barbería" width="900" height="1125">
+        <div class="t2"><img src="img/hero-vip.jpg" alt="Barbero perfilando un degradado bajo las luces hexagonales del local" width="1200" height="1500"><span class="veil"></span></div>
+        <img class="t3" src="img/hero-back.jpg" alt="Degradado visto desde la nuca, transición limpia" width="900" height="1125">
+      </div>
+    </div>
+    <div class="stage-cap" aria-hidden="true"><p>No es suerte. <span class="gold">Es oficio.</span><small>Tres barberías, nueve años y 2.693 clientes que lo han dejado por escrito.</small></p></div>
+  </section>
+
+  <div class="pole" aria-hidden="true"></div>
+  <div class="ticker" aria-hidden="true">
+    <div class="row">
+      <span><b>Degradado</b><i></i>Barba<i></i><b>Toalla caliente</b><i></i>Cejas a navaja<i></i><b>Les Corts</b><i></i>Desde 2017<i></i></span>
+      <span><b>Degradado</b><i></i>Barba<i></i><b>Toalla caliente</b><i></i>Cejas a navaja<i></i><b>Les Corts</b><i></i>Desde 2017<i></i></span>
+    </div>
+  </div>
+
+  <section class="proof" aria-label="La barbería en cifras" style="padding-block:clamp(80px,10vw,130px)">
+    <div class="wrap">
+      <div class="rv"><strong data-count="2693" data-sep="1">2.693</strong><span>reseñas de cinco estrellas entre Google y Booksy</span></div>
+      <div class="rv" style="--d:1"><strong data-count="3">3</strong><span>barberías en el área de Barcelona, desde 2017</span></div>
+      <div class="rv" style="--d:2"><strong data-count="7">7</strong><span>barberos, para que siempre haya una silla para ti</span></div>
+      <div class="rv" style="--d:3"><strong>9<em>–</em>21</strong><span>abierto los siete días de la semana</span></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="oferta">
+    <div class="wrap">
+      <div class="offer-head">
+        <div>
+          <p class="eyebrow rv">Para clientes nuevos</p>
+          <h2 class="rv">El Primer <span class="hl">Fade</span>. Te sientas una vez y ya no cambias de barbero.</h2>
+        </div>
+        <p class="lead rv">Tu primera visita, con todo lo que hace falta para que vuelvas: asesoría, degradado sin prisas, cejas a navaja, lavado y garantía. Pagas solo el corte.</p>
+      </div>
+
+      <div class="story">
+        <div class="story-media" aria-hidden="true">
+          <div class="frame">
+            <img src="img/step-asesoria.jpg" alt="">
+            <img src="img/step-fade.jpg" alt="">
+            <img src="img/step-cejas.jpg" alt="">
+            <img src="img/step-acabado.jpg" alt="">
+            <img src="img/step-garantia.jpg" alt="">
+            <span class="count"><b>01</b> / 05</span>
+          </div>
+        </div>
+        <ol class="story-steps">
+          <li data-img="0"><span class="n">1</span><div><h3>Asesoría antes de la máquina</h3><p>Miramos tu cara, cómo crece tu pelo y cómo te peinas. Te proponemos el degradado que te queda bien a ti, no el que está de moda.</p><img class="m" src="img/step-asesoria.jpg" alt="Barbero asesorando a un cliente con rizos" loading="lazy"></div></li>
+          <li data-img="1"><span class="n">2</span><div><h3>Un degradado hecho con tiempo</h3><p>Transición limpia, sin escalones y sin mirar el reloj. Lo que los clientes repiten en las reseñas: «exactamente como lo pedí».</p><img class="m" src="img/step-fade.jpg" alt="Degradado trabajado con peine y tijera" loading="lazy"></div></li>
+          <li data-img="2"><span class="n">3</span><div><h3>Cejas a navaja y lavado, de regalo</h3><p>Los detalles que hacen que el corte se vea terminado. En tu primera visita no los pagas.</p><span class="tag"><svg class="ic"><use href="#i-gift"/></svg>Regalo de bienvenida</span><img class="m" src="img/step-cejas.jpg" alt="Perfilado con navaja" loading="lazy"></div></li>
+          <li data-img="3"><span class="n">4</span><div><h3>Te enseñamos a peinarlo</h3><p>Producto, peinado y los trucos para que el corte se vea igual de bien el día diez que el día uno.</p><img class="m" src="img/step-acabado.jpg" alt="Cliente sonriendo con el corte terminado" loading="lazy"></div></li>
+          <li data-img="4"><span class="n">5</span><div><h3>Garantía Degradado Perfecto</h3><p>Si en siete días algo no te convence, vuelves y te lo retocamos gratis. Sin preguntas.</p><span class="tag"><svg class="ic"><use href="#i-shield-check"/></svg>7 días de garantía</span><img class="m" src="img/step-garantia.jpg" alt="Cliente satisfecho después del corte" loading="lazy"></div></li>
+        </ol>
+      </div>
+
+      <div class="deal rv">
+        <div class="deal-list">
+          <h3>Lo que te llevas</h3>
+          <ul>
+            <li><svg class="ic"><use href="#i-check"/></svg><span>Asesoría de estilo personalizada</span><span><em>Incluida</em></span></li>
+            <li><svg class="ic"><use href="#i-check"/></svg><span>Corte y degradado</span><span>17 €</span></li>
+            <li><svg class="ic"><use href="#i-check"/></svg><span>Cejas a navaja</span><span><s>3 €</s><em>Regalo</em></span></li>
+            <li><svg class="ic"><use href="#i-check"/></svg><span>Lavado</span><span><s>5 €</s><em>Regalo</em></span></li>
+            <li><svg class="ic"><use href="#i-check"/></svg><span>Retoque gratis durante 7 días</span><span><em>Garantía</em></span></li>
+          </ul>
+        </div>
+        <div class="deal-pay">
+          <span class="was">Valor real <s>25 €</s></span>
+          <span class="now">17<small>€</small></span>
+          <p>Pagas solo el corte. Todo lo demás corre de nuestra cuenta.</p>
+          <a class="btn btn-gold" href="#reserva" data-first="1"><svg class="ic"><use href="#i-calendar-check"/></svg><span>Reservar mi Primer Fade</span></a>
+          <span class="fine">Una vez por cliente. Reserva en Booksy o por WhatsApp.</span>
+        </div>
+      </div>
+
+      <div class="guarantee rv">
+        <div class="seal" aria-hidden="true">
+          <svg class="ring" viewBox="0 0 100 100"><defs><path id="circ" d="M50 50m-38 0a38 38 0 1 1 76 0a38 38 0 1 1-76 0"/></defs><text><textPath href="#circ">Garantía · 7 días · Degradado perfecto ·</textPath></text></svg>
+          <svg class="ic"><use href="#i-shield-check"/></svg>
+        </div>
+        <div>
+          <h3>Garantía Degradado Perfecto</h3>
+          <p>Si en los siete días siguientes a tu corte algo no te convence, vuelves y te lo retocamos gratis, con el mismo barbero o con el que tú elijas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="carta">
+    <div class="wrap">
+      <div class="carta-head">
+        <div>
+          <p class="eyebrow rv">La carta</p>
+          <h2 class="rv">Precios <span class="hl">claros</span>. Sin sorpresas al pagar.</h2>
+        </div>
+        <div class="tabs rv" role="tablist" aria-label="Filtrar la carta">
+          <button type="button" role="tab" aria-selected="true" data-f="all">Todo</button>
+          <button type="button" role="tab" aria-selected="false" data-f="corte">Corte</button>
+          <button type="button" role="tab" aria-selected="false" data-f="barba">Barba</button>
+          <button type="button" role="tab" aria-selected="false" data-f="combo">Combos</button>
+          <button type="button" role="tab" aria-selected="false" data-f="familia">Peques y +65</button>
+        </div>
+      </div>
+      <div class="board rv">
+        <div class="board-grid">
+          <div class="item" data-k="corte"><span class="name">Corte de cabello</span><span class="p">17 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>30 min</span><span>Corte y degradado</span></span></div>
+          <div class="item" data-k="combo"><span class="name">Corte &amp; barba</span><span class="p">27 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>45 min</span><span class="badge">El más pedido</span></span></div>
+          <div class="item" data-k="corte combo"><span class="name">Corte + cejas</span><span class="p">20 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>35 min</span><span>Degradado y cejas</span></span></div>
+          <div class="item" data-k="combo"><span class="name">Corte, barba + cejas</span><span class="p">31 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>55 min</span><span>El servicio completo</span></span></div>
+          <div class="item" data-k="combo barba"><span class="name">Corte, barba + toalla caliente</span><span class="p">32 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>50 min</span><span class="badge">Experiencia</span></span></div>
+          <div class="item" data-k="barba"><span class="name">Arreglo de barba</span><span class="p">13 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>15 min</span><span>Perfilado y forma</span></span></div>
+          <div class="item" data-k="barba"><span class="name">Ritual de barba a la vieja escuela</span><span class="p">17 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>25 min</span><span>Con toalla caliente</span></span></div>
+          <div class="item" data-k="corte barba"><span class="name">Cejas a navaja</span><span class="p">3 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>5 min</span></span></div>
+          <div class="item" data-k="familia"><span class="name">Niños hasta 6 años</span><span class="p">15 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>25 min</span></span></div>
+          <div class="item" data-k="familia"><span class="name">Corte jubilado</span><span class="p">15 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>25 min</span></span></div>
+          <div class="item" data-k="familia combo"><span class="name">Corte &amp; barba jubilado</span><span class="p">20 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>30 min</span></span></div>
+          <div class="item" data-k="corte"><span class="name">Lavado</span><span class="p">5 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>5 min</span></span></div>
+          <div class="item" data-k="corte"><span class="name">Tinte de cabello</span><span class="p">100 €</span><span class="d"><span><svg class="ic"><use href="#i-clock"/></svg>1 h 5 min</span></span></div>
+        </div>
+        <div class="board-foot">
+          <span class="script">Lunes a domingo, de 9 a 21</span>
+          <a class="btn btn-gold" href="#reserva"><span>Elegir mi servicio</span><svg class="ic"><use href="#i-arrow-right"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="equipo">
+    <div class="wrap">
+      <div class="team-head">
+        <div>
+          <p class="eyebrow rv">Los barberos</p>
+          <h2 class="rv">Siete barberos. <span class="hl">Un mismo nivel.</span></h2>
+        </div>
+        <p class="lead rv">Elige con quién te sientas o deja que te asignemos el primero libre. En las reseñas, el nombre de tu barbero sale tanto como la palabra «degradado».</p>
+      </div>
+      <div class="team">
+        <a class="barber big rv" href="#reserva" data-barber="Berni"><img src="img/staff-berni.jpg" alt="Berni De Gregorio, barbero" loading="lazy"><span class="crown">El más nombrado en Google</span><span class="info"><h3>Berni De Gregorio</h3><q>Berni es el boss. Te da un trato personal y muy agradable y se fija en los detalles, para que te quede realmente el corte que quieres.</q><span class="go">Reservar con Berni<svg class="ic"><use href="#i-arrow-right"/></svg></span></span></a>
+        <a class="barber rv" style="--d:1" href="#reserva" data-barber="Johan"><img src="img/staff-johan.jpg" alt="Johan, barbero" loading="lazy"><span class="info"><h3>Johan</h3><q>De los pocos barberos que entienden a la perfección lo que uno desea.</q><span class="go">Reservar con Johan<svg class="ic"><use href="#i-arrow-right"/></svg></span></span></a>
+        <a class="barber rv" style="--d:2" href="#reserva" data-barber="Stefano"><img src="img/staff-stefano.jpg" alt="Stefano, barbero" loading="lazy"><span class="info"><h3>Stefano</h3><q>Amable, da conversación y, sobre todo, corte de 10.</q><span class="go">Reservar con Stefano<svg class="ic"><use href="#i-arrow-right"/></svg></span></span></a>
+        <a class="barber rv" style="--d:1" href="#reserva" data-barber="Alejandro del Rey"><img src="img/staff-alejandro.jpg" alt="Alejandro del Rey, barbero" loading="lazy"><span class="info"><h3>Alejandro del Rey</h3><span class="go">Reservar con Alejandro<svg class="ic"><use href="#i-arrow-right"/></svg></span></span></a>
+        <a class="barber rv" style="--d:2" href="#reserva" data-barber="Santiago"><img src="img/staff-santiago.jpg" alt="Santiago, barbero" loading="lazy"><span class="info"><h3>Santiago</h3><span class="go">Reservar con Santiago<svg class="ic"><use href="#i-arrow-right"/></svg></span></span></a>
+        <a class="barber rv" style="--d:1" href="#reserva" data-barber="Arturo"><img src="img/staff-arturo.jpg" alt="Arturo, barbero" loading="lazy"><span class="info"><h3>Arturo</h3><q>Awesome, I will be back.</q><span class="go">Reservar con Arturo<svg class="ic"><use href="#i-arrow-right"/></svg></span></span></a>
+        <a class="barber rv" style="--d:2" href="#reserva" data-barber="Juan"><img src="img/staff-juan.jpg" alt="Juan, barbero" loading="lazy"><span class="info"><h3>Juan</h3><span class="go">Reservar con Juan<svg class="ic"><use href="#i-arrow-right"/></svg></span></span></a>
+        <a class="barber join rv" style="--d:3" href="#reserva" data-barber=""><span class="stat">1º</span><h3>El primero libre</h3><p>¿Tienes prisa? Te sentamos con el primer barbero disponible.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene" id="local">
+    <img src="img/local-mural.jpg" alt="Interior de la barbería con techo de luces hexagonales y mural de arte urbano" loading="lazy">
+    <div class="inner">
+      <p class="eyebrow rv">El local</p>
+      <h2 class="rv">Murales, buena música y luz <span class="hl">hexagonal</span>.</h2>
+      <p class="lead rv">Aquí no se viene solo a cortarse el pelo. Se viene a pasar un buen rato, a charlar con tu barbero y a salir con la cabeza alta.</p>
+      <ul class="chips rv">
+        <li><svg class="ic"><use href="#i-clock"/></svg>Abierto los 7 días</li>
+        <li><svg class="ic"><use href="#i-music"/></svg>Música y buen ambiente</li>
+        <li><svg class="ic"><use href="#i-sparkle"/></svg>Arte urbano en las paredes</li>
+        <li><svg class="ic"><use href="#i-wheelchair"/></svg>Accesible en silla de ruedas</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="works" id="trabajos">
+    <div class="wrap works-head">
+      <div>
+        <p class="eyebrow rv">Trabajos reales</p>
+        <h2 class="rv">Hecho en <span class="hl">Benavent, 2</span>.</h2>
+      </div>
+      <span class="hint rv"><svg class="ic"><use href="#i-arrow-right"/></svg>Desliza</span>
+    </div>
+    <div class="htrack-wrap">
+      <div class="htrack">
+        <figure><img src="img/w-01.jpg" alt="Barbero trabajando un degradado" loading="lazy"><figcaption>01</figcaption></figure>
+        <figure><img src="img/w-04.jpg" alt="Degradado alto con flequillo texturizado" loading="lazy"><figcaption>02</figcaption></figure>
+        <figure><img src="img/w-05.jpg" alt="Corte con flequillo y degradado lateral" loading="lazy"><figcaption>03</figcaption></figure>
+        <figure><img src="img/w-08.jpg" alt="Rizos con degradado bajo" loading="lazy"><figcaption>04</figcaption></figure>
+        <figure><img src="img/w-02.jpg" alt="Dos clientes en las sillas de la barbería" loading="lazy"><figcaption>05</figcaption></figure>
+        <figure><img src="img/w-06.jpg" alt="Perfilado del degradado con tijera" loading="lazy"><figcaption>06</figcaption></figure>
+        <figure><img src="img/w-10.jpg" alt="Barbero trabajando en blanco y negro" loading="lazy"><figcaption>07</figcaption></figure>
+        <figure><img src="img/w-09.jpg" alt="Cliente con degradado y bigote" loading="lazy"><figcaption>08</figcaption></figure>
+        <figure><img src="img/w-03.jpg" alt="Cliente con la capa de La Barbería Shop" loading="lazy"><figcaption>09</figcaption></figure>
+        <figure><img src="img/w-13.jpg" alt="Degradado con textura arriba" loading="lazy"><figcaption>10</figcaption></figure>
+        <figure><img src="img/w-14.jpg" alt="Cliente sonriente con capa dorada" loading="lazy"><figcaption>11</figcaption></figure>
+        <figure><img src="img/w-07.jpg" alt="Barbero trabajando rizos largos" loading="lazy"><figcaption>12</figcaption></figure>
+        <figure><img src="img/w-11.jpg" alt="Degradado en la nuca trabajado con peine" loading="lazy"><figcaption>13</figcaption></figure>
+        <figure><img src="img/w-12.jpg" alt="Cliente con barba perfilada y degradado" loading="lazy"><figcaption>14</figcaption></figure>
+      </div>
+    </div>
+    <div class="wrap cc-foot">
+      <span class="cc-n" aria-live="polite">01 / 14</span>
+      <div class="cc-arrows">
+        <button type="button" class="cc-prev" aria-label="Anterior"><svg class="ic"><use href="#i-arrow-right"/></svg></button>
+        <button type="button" class="cc-next" aria-label="Siguiente"><svg class="ic"><use href="#i-arrow-right"/></svg></button>
+      </div>
+      <div class="cc-cta"><span>El próximo eres tú.</span><a class="btn btn-gold" href="#reserva"><span>Reservar</span><svg class="ic"><use href="#i-arrow-right"/></svg></a></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="familia">
+    <div class="wrap">
+      <div class="family">
+        <div class="polaroid rv"><img src="img/kids.jpg" alt="Niño cortándose el pelo frente al espejo con su barbero" loading="lazy"><span class="handle">@labarberiashopstudio</span></div>
+        <div>
+          <p class="eyebrow rv">Peques y mayores</p>
+          <h2 class="rv">Los peques salen contentos. <span class="hl">Los abuelos, también.</span></h2>
+          <p class="lead rv" style="margin-top:20px">Paciencia de verdad con los más pequeños y precio especial para jubilados. Toda la familia en la misma barbería.</p>
+          <blockquote class="rv">Un 10 para Àlex. Le ha sabido encontrar el corte perfecto a mis 2 peques de 2 y 4 años. Ya tenemos peluquero de confianza.<cite>Núria Álvarez · Google</cite></blockquote>
+          <ul class="prices rv">
+            <li><svg class="ic"><use href="#i-baby"/></svg>Niños hasta 6 años <b>15 €</b></li>
+            <li>Corte jubilado <b>15 €</b></li>
+            <li>Corte &amp; barba jubilado <b>20 €</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="opiniones">
+    <div class="wrap rev-head">
+      <div>
+        <p class="eyebrow rv">Opiniones</p>
+        <h2 class="rv">2.693 reseñas. <span class="hl">El mismo veredicto.</span></h2>
+        <p class="lead rv">Reseñas reales de clientes en Google y Booksy. Casi todas dicen lo mismo: entienden lo que pides, cuidan el detalle y el ambiente es de diez.</p>
+      </div>
+      <div class="scores rv">
+        <div class="score"><span class="src">Google</span><strong>4,9</strong><span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span><span>923 reseñas</span></div>
+        <div class="score"><span class="src">Booksy</span><strong>5,0</strong><span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span><span>1.770 reseñas</span></div>
+      </div>
+    </div>
+    <div class="marquee" id="revs" aria-label="Reseñas de clientes" tabindex="0">
+      <div class="track">
+        <figure class="rcard"><span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span><blockquote lang="es">He salido literalmente con uno de los mejores cortes que me han hecho en la vida. Pedí un degradado, pero lo que hizo fue otro nivel… un degradado de 1000.</blockquote><figcaption><span class="av">R</span><span><b>Rubén Teres</b><small>Google</small></span></figcaption></figure>
+        <figure class="rcard"><span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span><blockquote lang="es">Después de un año buscando una barbería que ofreciera el tipo de servicio que necesitaba, por fin encontré un lugar que cumplió con mis expectativas. Se tomaron el tiempo de analizar mi caso y recomendarme un estilo.</blockquote><figcaption><span class="av">F</span><span><b>Felipe</b><small>Booksy · cliente verificado</small></span></figcaption></figure>
+        <figure class="rcard"><span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span><blockquote lang="es">Fui con mis dos hijos y fueron súper comprensivos con ellos. Me hicieron exactamente lo que pedí… y quedó incluso mejor de lo que esperaba. El local es guapísimo.</blockquote><figcaption><span class="av">P</span><span><b>Pol Figols</b><small>Google</small></span></figcaption></figure>
+        <figure class="rcard"><span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span><blockquote lang="es">Me dejó el pelo muy bien y me fue dando recomendaciones según mi tipo de pelo y el estilo que buscaba, cosa que se agradece mucho.</blockquote><figcaption><span class="av">R</span><span><b>Roger Almagro</b><small>Google</small></span></figcaption></figure>
+        <figure class="rcard"><span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span><blockquote lang="es">Después de probar varias barberías, decidí hacer de esta «La Barbería».</blockquote><figcaption><span class="av">L</span><span><b>Luis Fernando Pérez</b><small>Google</small></span></figcaption></figure>
+        <figure class="rcard"><span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span><blockquote lang="es">Me hicieron un degradado limpio y muy bien trabajado, justo como lo quería. Se nota la profesionalidad y el cuidado en los detalles.</blockquote><figcaption><span class="av">A</span><span><b>Alex Campillo</b><small>Google</small></span></figcaption></figure>
+        <figure class="rcard"><span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span><blockquote lang="es">Llevé a mi hijo y de verdad quedé impresionado. Mucha paciencia, amabilidad y profesionalismo. Salió feliz y con un look espectacular.</blockquote><figcaption><span class="av">A</span><span><b>Alfred Ortega</b><small>Google</small></span></figcaption></figure>
+        <figure class="rcard"><span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span><blockquote lang="es">Excelente lugar para cortarse el cabello. Buena vibra con arte mural y música animada. ¡Recomendadísimo!</blockquote><figcaption><span class="av">D</span><span><b>Diego Herrero</b><small>Google</small></span></figcaption></figure>
+        <figure class="rcard"><span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span><blockquote lang="es">En otras peluquerías tardaban más de una hora y me cortaban mal. Aquí me cortó en 18 minutos y quedó mil veces mejor.</blockquote><figcaption><span class="av">J</span><span><b>Joan</b><small>Google</small></span></figcaption></figure>
+        <figure class="rcard"><span class="stars"><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg><svg class="ic"><use href="#i-star-fill"/></svg></span><blockquote lang="es">Barbería recomendada. Te hace sentir cómodo y te asesora. Ya he pedido mi tercera cita en este local.</blockquote><figcaption><span class="av">G</span><span><b>Guillermo Tabasca</b><small>Google</small></span></figcaption></figure>
+      </div>
+    </div>
+    <div class="wrap rev-more">
+      <a class="btn btn-ghost" href="https://www.google.com/maps/place/LA+BARBER%C3%8DA+SHOP/@41.3777875,2.1256107,17z/data=!4m8!3m7!1s0x12a499ee313f0d35:0x49b181039d33f515!8m2!3d41.3777875!4d2.1256107!9m1!1b1!16s%2Fg%2F11y98yptqp" target="_blank" rel="noopener"><span>Ver las reseñas en Google</span><svg class="ic"><use href="#i-arrow-right"/></svg></a>
+      <a class="btn btn-ghost" href="https://booksy.com/es-es/123003_la-barberia-shop-les-corts_barberia_48863_barcelona" target="_blank" rel="noopener"><span>Ver las reseñas en Booksy</span><svg class="ic"><use href="#i-arrow-right"/></svg></a>
+    </div>
+  </section>
+
+  <section class="section alt" id="club">
+    <div class="wrap">
+      <p class="eyebrow rv">Club La Barbería</p>
+      <h2 class="rv">Siempre fresco. <span class="hl">Pagando menos.</span></h2>
+      <p class="lead rv">Un degradado se ve perfecto unas tres semanas. Para los que no quieren pasar ni un día sin estar al cien.</p>
+      <div class="club">
+        <div class="card gold rv">
+          <div class="ic-lg"><svg class="ic"><use href="#i-repeat"/></svg></div>
+          <h3>Bono 5 cortes</h3>
+          <p>Cinco cortes por el precio de cuatro. Lo usas cuando quieras, con el barbero que quieras.</p>
+          <div class="cuts" aria-hidden="true"><span><svg class="ic"><use href="#i-scissors"/></svg></span><span><svg class="ic"><use href="#i-scissors"/></svg></span><span><svg class="ic"><use href="#i-scissors"/></svg></span><span><svg class="ic"><use href="#i-scissors"/></svg></span><span class="free">Gratis</span></div>
+          <div class="bono"><span class="big">68<small>€</small></span><span class="was">en lugar de <s>85 €</s></span></div>
+          <a class="btn btn-gold" href="https://booksy.com/es-es/123003_la-barberia-shop-les-corts_barberia_48863_barcelona" target="_blank" rel="noopener"><span>Pedir mi bono</span><svg class="ic"><use href="#i-arrow-right"/></svg></a>
+        </div>
+        <div class="card rv" style="--d:1">
+          <div class="ic-lg"><svg class="ic"><use href="#i-users"/></svg></div>
+          <h3>Trae a un amigo</h3>
+          <p>Cuando tu amigo venga a su Primer Fade, tus próximas cejas a navaja van por la casa. Sin límite de amigos.</p>
+          <a class="btn btn-ghost" id="share" href="https://wa.me/?text=" target="_blank" rel="noopener"><svg class="ic"><use href="#i-whatsapp-logo"/></svg><span>Invitar por WhatsApp</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow rv">Cómo funciona</p>
+      <h2 class="rv">Reservar cuesta <span class="hl">30 segundos</span>.</h2>
+      <div class="steps">
+        <div class="step rv"><h3>Elige servicio y barbero</h3><p>Aquí abajo, en Booksy o por WhatsApp. Ves los huecos libres al momento.</p></div>
+        <div class="step rv" style="--d:1"><h3>Ven a Benavent, 2</h3><p>En Les Corts, cerca del metro Badal. Abrimos todos los días de 9 a 21 h.</p></div>
+        <div class="step rv" style="--d:2"><h3>Sal con tu mejor degradado</h3><p>Y si en siete días algo no te convence, te lo retocamos gratis.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="preguntas">
+    <div class="wrap faq-grid">
+      <div>
+        <p class="eyebrow rv">Preguntas frecuentes</p>
+        <h2 class="rv">Lo que nos <span class="hl">preguntan</span>.</h2>
+        <p class="lead rv">¿No encuentras la tuya? Escríbenos por WhatsApp y te contestamos enseguida.</p>
+      </div>
+      <div class="faq rv">
+        <details><summary>¿Necesito cita?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Te recomendamos reservar para no esperar: en Booksy tienes los huecos libres de cada barbero. Si prefieres, llámanos al 677 72 04 42 y te decimos si hay sitio ahora mismo.</p></details>
+        <details><summary>¿Cómo se paga?<svg class="ic"><use href="#i-plus"/></svg></summary><p>En el local y en efectivo, por favor.</p></details>
+        <details><summary>¿Qué incluye el Primer Fade?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Asesoría de estilo, corte y degradado, cejas a navaja, lavado y la Garantía Degradado Perfecto de siete días. Pagas 17 €, el precio del corte. Es para tu primera visita.</p></details>
+        <details><summary>¿Y si el corte no me convence?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Vuelves en los siete días siguientes y te lo retocamos gratis, con el mismo barbero o con otro si lo prefieres.</p></details>
+        <details><summary>¿Cuánto se tarda?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Un corte, unos 30 minutos. Corte y barba, 45 minutos. El servicio completo con toalla caliente, unos 50 minutos.</p></details>
+        <details><summary>¿Cortáis a niños?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Sí, y con mucha paciencia. El corte para niños de hasta 6 años cuesta 15 €.</p></details>
+        <details><summary>¿Tenéis más barberías?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Sí. Además de Les Corts (Carrer de Benavent, 2) estamos en Sant Joan Despí (Carrer d'Àngel Guimerà, 6) y en Sant Feliu de Llobregat (Carrer de Carles Buïgas, 4).</p></details>
+        <details><summary>¿Abrís los domingos?<svg class="ic"><use href="#i-plus"/></svg></summary><p>Sí. Abrimos de lunes a domingo, de 9 a 21 h. En festivos el horario puede cambiar.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="ubicacion">
+    <div class="wrap">
+      <p class="eyebrow rv">Dónde estamos</p>
+      <h2 class="rv">En pleno <span class="hl">Les Corts</span>.</h2>
+      <p class="lead rv">Carrer de Benavent, 2. A pocos minutos a pie del metro Badal.</p>
+      <div class="map-wrap rv">
+        <iframe id="map" title="Mapa de La Barbería Shop" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=LA%20BARBERIA%20SHOP%2C%20Carrer%20de%20Benavent%202%2C%2008028%20Barcelona&amp;z=16&amp;hl=es&amp;output=embed"></iframe>
+        <button class="map-shield" type="button" aria-label="Activa el mapa"><span>Haz clic para mover el mapa</span></button>
+        <span class="pin" aria-hidden="true"></span>
+        <div class="map-card">
+          <img class="logo-s" src="img/logo.png" alt="" width="74" height="74">
+          <p class="addr">Carrer de Benavent, 2</p>
+          <p class="sub">Les Corts, 08028 Barcelona</p>
+          <p class="open-now" id="open-now"><i></i><span>Horario</span></p>
+          <table class="hours">
+            <tr data-days="1 2 3 4 5"><td>Lunes a viernes</td><td>9:00 – 21:00</td></tr>
+            <tr data-days="6 0"><td>Sábado y domingo</td><td>9:00 – 21:00</td></tr>
+          </table>
+          <div class="btns">
+            <a class="btn btn-gold" href="https://www.google.com/maps/dir/?api=1&amp;destination=LA+BARBERIA+SHOP+Carrer+de+Benavent+2+Barcelona" target="_blank" rel="noopener"><svg class="ic"><use href="#i-map-pin"/></svg><span>Cómo llegar</span></a>
+            <a class="btn btn-ghost" href="tel:+34677720442"><svg class="ic"><use href="#i-phone"/></svg><span>Llamar</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="reserva">
+    <div class="wrap">
+      <p class="eyebrow rv">Reserva</p>
+      <h2 class="rv">Arma tu <span class="hl">cita</span>.</h2>
+      <p class="lead rv">Marca lo que quieres y con quién. Te calculamos el precio y te preparamos la reserva.</p>
+      <div class="book">
+        <form class="builder rv" id="builder" onsubmit="return false">
+          <h3>1 · ¿Qué te hacemos?</h3>
+          <div class="opts">
+            <div class="opt"><input type="checkbox" id="s-c" value="c" checked><label for="s-c"><svg class="ic"><use href="#i-scissors"/></svg><b>Corte</b><small>Corte y degradado</small></label></div>
+            <div class="opt"><input type="checkbox" id="s-b" value="b"><label for="s-b"><svg class="ic"><use href="#i-sparkle"/></svg><b>Barba</b><small>Arreglo y perfilado</small></label></div>
+            <div class="opt"><input type="checkbox" id="s-e" value="e"><label for="s-e"><svg class="ic"><use href="#i-smiley"/></svg><b>Cejas</b><small>A navaja</small></label></div>
+            <div class="opt"><input type="checkbox" id="s-t" value="t"><label for="s-t"><svg class="ic"><use href="#i-hand-heart"/></svg><b>Toalla caliente</b><small>Ritual de barba</small></label></div>
+            <div class="opt"><input type="checkbox" id="s-l" value="l"><label for="s-l"><svg class="ic"><use href="#i-heart"/></svg><b>Lavado</b><small>Antes o después</small></label></div>
+          </div>
+          <label class="first"><input type="checkbox" id="first"><span>Es mi primera vez: quiero el <b>Primer Fade</b> (cejas y lavado de regalo).</span></label>
+          <div class="sep"></div>
+          <h3>2 · ¿Con quién?</h3>
+          <div class="who" id="who">
+            <span><input type="radio" name="who" id="w-0" value="" checked><label for="w-0"><span class="any"><svg class="ic"><use href="#i-users"/></svg></span>El primero libre</label></span>
+            <span><input type="radio" name="who" id="w-1" value="Berni"><label for="w-1"><img src="img/staff-berni.jpg" alt="">Berni</label></span>
+            <span><input type="radio" name="who" id="w-2" value="Johan"><label for="w-2"><img src="img/staff-johan.jpg" alt="">Johan</label></span>
+            <span><input type="radio" name="who" id="w-3" value="Stefano"><label for="w-3"><img src="img/staff-stefano.jpg" alt="">Stefano</label></span>
+            <span><input type="radio" name="who" id="w-4" value="Alejandro del Rey"><label for="w-4"><img src="img/staff-alejandro.jpg" alt="">Alejandro</label></span>
+            <span><input type="radio" name="who" id="w-5" value="Santiago"><label for="w-5"><img src="img/staff-santiago.jpg" alt="">Santiago</label></span>
+            <span><input type="radio" name="who" id="w-6" value="Arturo"><label for="w-6"><img src="img/staff-arturo.jpg" alt="">Arturo</label></span>
+            <span><input type="radio" name="who" id="w-7" value="Juan"><label for="w-7"><img src="img/staff-juan.jpg" alt="">Juan</label></span>
+          </div>
+        </form>
+        <aside class="ticket rv" style="--d:1" aria-live="polite">
+          <span class="lbl">Tu cita</span>
+          <p class="svc" id="t-svc">Corte de cabello</p>
+          <div class="row"><span>Barbero</span><b id="t-who">El primero libre</b></div>
+          <div class="row"><span>Duración</span><b id="t-dur">30 min</b></div>
+          <div class="total"><span>Total</span><b id="t-tot">17 €</b></div>
+          <p class="save" id="t-save"></p>
+          <a class="btn btn-dark" id="t-booksy" href="https://booksy.com/es-es/123003_la-barberia-shop-les-corts_barberia_48863_barcelona" target="_blank" rel="noopener"><svg class="ic"><use href="#i-calendar-check"/></svg><span>Reservar en Booksy</span></a>
+          <a class="btn btn-line" id="t-wa" href="https://wa.me/34677720442" target="_blank" rel="noopener"><svg class="ic"><use href="#i-whatsapp-logo"/></svg><span>Reservar por WhatsApp</span></a>
+          <span class="cash"><svg class="ic"><use href="#i-coins"/></svg>Pago en el local, en efectivo</span>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="final">
+    <img src="img/local-hex.jpg" alt="" loading="lazy">
+    <div class="wrap">
+      <h2 class="rv">Tu silla <span class="hl">te espera</span>.</h2>
+      <p class="lead rv" style="margin:24px auto 0">Hoy abrimos hasta las 21:00. Reserva en 30 segundos.</p>
+      <div class="ctas rv">
+        <a class="btn btn-gold" href="#reserva"><svg class="ic"><use href="#i-scissors"/></svg><span>Quiero mi Primer Fade</span><span class="price">17 €</span></a>
+        <a class="btn btn-ghost" href="tel:+34677720442"><svg class="ic"><use href="#i-phone"/></svg><span>677 72 04 42</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="logo" href="#inicio" aria-label="La Barbería Shop, inicio"><img src="img/logo.png" alt="La Barbería Shop Barcelona" width="96" height="96"></a>
+    <div>
+      <p style="color:var(--ink);font-weight:600">Carrer de Benavent, 2 · Les Corts, 08028 Barcelona</p>
+      <p style="margin-top:4px">También en Sant Joan Despí y Sant Feliu de Llobregat.</p>
+      <div class="links" style="margin-top:10px">
+        <a href="tel:+34677720442">677 72 04 42</a>
+        <a href="mailto:labarberiashop22@gmail.com">labarberiashop22@gmail.com</a>
+        <a href="https://booksy.com/es-es/123003_la-barberia-shop-les-corts_barberia_48863_barcelona" target="_blank" rel="noopener">Booksy</a>
+        <a href="#carta">Carta</a>
+        <a href="#preguntas">Preguntas</a>
+      </div>
+    </div>
+    <div class="soc">
+      <a href="https://www.instagram.com/labarberiashopstudio/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ic"><use href="#i-instagram-logo"/></svg></a>
+      <a href="https://wa.me/34677720442" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="ic"><use href="#i-whatsapp-logo"/></svg></a>
+    </div>
+    <div class="copy"><span>© <span id="y">2026</span> La Barbería Shop. Barbería en Les Corts, Barcelona.</span><span>Aviso legal · Privacidad</span></div>
+  </div>
+</footer>
+
+<div class="bar" aria-label="Acciones rápidas">
+  <a class="btn btn-ghost" href="tel:+34677720442" aria-label="Llamar"><svg class="ic"><use href="#i-phone"/></svg></a>
+  <a class="btn btn-gold" href="#reserva"><svg class="ic"><use href="#i-calendar-check"/></svg><span>Reservar mi Primer Fade</span></a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script>
+  (function () {
+    var BOOKSY = 'https://booksy.com/es-es/123003_la-barberia-shop-les-corts_barberia_48863_barcelona';
+    var WA = '34677720442';
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    // Reviews loop: duplicate the cards once (hidden from screen readers) and set a calm reading speed
+    (function () {
+      var box = document.getElementById('revs');
+      if (!box || !document.documentElement.classList.contains('motion')) return;
+      var track = box.querySelector('.track');
+      var cards = Array.prototype.slice.call(track.children);
+      cards.forEach(function (c) { var k = c.cloneNode(true); k.setAttribute('aria-hidden', 'true'); track.appendChild(k); });
+      var fit = function () {
+        var gap = parseFloat(getComputedStyle(track).columnGap) || 18;
+        var half = cards.reduce(function (w, c) { return w + c.getBoundingClientRect().width + gap; }, 0);
+        track.style.setProperty('--shift', -half + 'px');
+        track.style.setProperty('--dur', Math.round(half / 34) + 's');
+      };
+      fit();
+      window.addEventListener('resize', fit);
+      box.addEventListener('touchstart', function () { box.classList.toggle('hold'); }, { passive: true });
+    })();
+
+    // ---------- Languages (ES source, CA and EN translations) ----------
+    // Each entry: Spanish text exactly as on the page -> [Catalan, English].
+    var T = [
+      ['Primer Fade', 'Primer Fade', 'First Fade'],
+      ['Carta', 'Carta', 'Menu'],
+      ['Barberos', 'Barbers', 'Barbers'],
+      ['El local', 'El local', 'The shop'],
+      ['Trabajos', 'Treballs', 'Work'],
+      ['Opiniones', 'Opinions', 'Reviews'],
+      ['Club', 'Club', 'Club'],
+      ['Reserva', 'Reserva', 'Book'],
+      ['Reservar', 'Reservar', 'Book'],
+      ['Dónde estamos', 'On som', 'Find us'],
+      ['Barbería en Les Corts · Desde 2017', 'Barberia a Les Corts · Des de 2017', 'Barbershop in Les Corts · Since 2017'],
+      ['Posiblemente', 'Possiblement', 'Possibly'],
+      ['el mejor', 'el millor', 'the best'],
+      ['degradado', 'degradat', 'fade'],
+      ['de Les Corts.', 'de Les Corts.', 'in Les Corts.'],
+      ['En la puerta pone «posiblemente». 2.693 reseñas de cinco estrellas dicen que sobra la palabra.', 'A la porta hi posa «possiblement». 2.693 ressenyes de cinc estrelles diuen que sobra la paraula.', 'Our door says "possibly". 2,693 five-star reviews say we can drop the word.'],
+      ['Quiero mi Primer Fade', 'Vull el meu Primer Fade', 'I want my First Fade'],
+      ['Ver la carta', 'Veure la carta', 'See the menu'],
+      ['reseñas', 'ressenyes', 'reviews'],
+      ['No es suerte.', 'No és sort.', 'It is not luck.'],
+      ['Es oficio.', 'És ofici.', 'It is craft.'],
+      ['Tres barberías, nueve años y 2.693 clientes que lo han dejado por escrito.', 'Tres barberies, nou anys i 2.693 clients que ho han deixat per escrit.', 'Three shops, nine years and 2,693 clients who put it in writing.'],
+      ['barberías en el área de Barcelona, desde 2017', 'barberies a l\'àrea de Barcelona, des de 2017', 'barbershops around Barcelona, since 2017'],
+      ['¿Tenéis más barberías?', 'Teniu més barberies?', 'Do you have other shops?'],
+      ['Sí. Además de Les Corts (Carrer de Benavent, 2) estamos en Sant Joan Despí (Carrer d\'Àngel Guimerà, 6) y en Sant Feliu de Llobregat (Carrer de Carles Buïgas, 4).', 'Sí. A més de Les Corts (Carrer de Benavent, 2) som a Sant Joan Despí (Carrer d\'Àngel Guimerà, 6) i a Sant Feliu de Llobregat (Carrer de Carles Buïgas, 4).', 'Yes. Besides Les Corts (Carrer de Benavent, 2) we are in Sant Joan Despí (Carrer d\'Àngel Guimerà, 6) and Sant Feliu de Llobregat (Carrer de Carles Buïgas, 4).'],
+      ['También en Sant Joan Despí y Sant Feliu de Llobregat.', 'També a Sant Joan Despí i Sant Feliu de Llobregat.', 'Also in Sant Joan Despí and Sant Feliu de Llobregat.'],
+      ['El próximo eres tú.', 'El pròxim ets tu.', 'You are next.'],
+      ['Anterior', 'Anterior', 'Previous'],
+      ['Siguiente', 'Següent', 'Next'],
+      ['reseñas de cinco estrellas entre Google y Booksy', 'ressenyes de cinc estrelles entre Google i Booksy', 'five-star reviews across Google and Booksy'],
+      ['de media en Google con 923 opiniones', 'de mitjana a Google amb 923 opinions', 'average on Google from 923 reviews'],
+      ['barberos, para que siempre haya una silla para ti', 'barbers, perquè sempre hi hagi una cadira per a tu', 'barbers, so there is always a chair for you'],
+      ['abierto los siete días de la semana', 'obert els set dies de la setmana', 'open seven days a week'],
+      ['Para clientes nuevos', 'Per a clients nous', 'For new clients'],
+      ['El Primer', 'El Primer', 'The First'],
+      ['Fade', 'Fade', 'Fade'],
+      ['. Te sientas una vez y ya no cambias de barbero.', ". Seus un cop i ja no canvies de barber.", '. Sit down once and you will never switch barbers.'],
+      ['Tu primera visita, con todo lo que hace falta para que vuelvas: asesoría, degradado sin prisas, cejas a navaja, lavado y garantía. Pagas solo el corte.', 'La teva primera visita, amb tot el que cal perquè tornis: assessorament, degradat sense presses, celles a navalla, rentat i garantia. Només pagues el tall.', 'Your first visit, with everything it takes to make you come back: advice, an unhurried fade, razor brows, a wash and a guarantee. You only pay for the cut.'],
+      ['Asesoría antes de la máquina', "Assessorament abans de la màquina", 'Advice before the clippers'],
+      ['Miramos tu cara, cómo crece tu pelo y cómo te peinas. Te proponemos el degradado que te queda bien a ti, no el que está de moda.', "Mirem la teva cara, com et creix el cabell i com et pentines. Et proposem el degradat que et queda bé a tu, no el que està de moda.", 'We look at your face, how your hair grows and how you style it. We suggest the fade that suits you, not the one that is trending.'],
+      ['Un degradado hecho con tiempo', 'Un degradat fet amb temps', 'A fade done properly'],
+      ['Transición limpia, sin escalones y sin mirar el reloj. Lo que los clientes repiten en las reseñas: «exactamente como lo pedí».', 'Transició neta, sense esglaons i sense mirar el rellotge. El que els clients repeteixen a les ressenyes: «exactament com ho vaig demanar».', 'A clean blend, no steps, no watching the clock. What clients keep writing in reviews: "exactly as I asked".'],
+      ['Cejas a navaja y lavado, de regalo', 'Celles a navalla i rentat, de regal', 'Razor brows and a wash, on us'],
+      ['Los detalles que hacen que el corte se vea terminado. En tu primera visita no los pagas.', 'Els detalls que fan que el tall es vegi acabat. A la teva primera visita no els pagues.', 'The details that make a cut look finished. On your first visit you do not pay for them.'],
+      ['Regalo de bienvenida', 'Regal de benvinguda', 'Welcome gift'],
+      ['Te enseñamos a peinarlo', "T'ensenyem a pentinar-lo", 'We show you how to style it'],
+      ['Producto, peinado y los trucos para que el corte se vea igual de bien el día diez que el día uno.', 'Producte, pentinat i els trucs perquè el tall es vegi igual de bé el dia deu que el dia u.', 'Product, styling and the tricks to make the cut look as good on day ten as on day one.'],
+      ['Garantía Degradado Perfecto', 'Garantia Degradat Perfecte', 'Perfect Fade Guarantee'],
+      ['Si en siete días algo no te convence, vuelves y te lo retocamos gratis. Sin preguntas.', 'Si en set dies alguna cosa no et convenç, tornes i te la retoquem gratis. Sense preguntes.', 'If anything is not right within seven days, come back and we touch it up for free. No questions asked.'],
+      ['7 días de garantía', '7 dies de garantia', '7-day guarantee'],
+      ['Lo que te llevas', "El que t'emportes", 'What you get'],
+      ['Asesoría de estilo personalizada', "Assessorament d'estil personalitzat", 'Personal style advice'],
+      ['Incluida', 'Inclosa', 'Included'],
+      ['Corte y degradado', 'Tall i degradat', 'Cut and fade'],
+      ['Cejas a navaja', 'Celles a navalla', 'Razor eyebrows'],
+      ['Regalo', 'Regal', 'Free'],
+      ['Lavado', 'Rentat', 'Wash'],
+      ['Retoque gratis durante 7 días', 'Retoc gratis durant 7 dies', 'Free touch-up for 7 days'],
+      ['Garantía', 'Garantia', 'Guarantee'],
+      ['Valor real', 'Valor real', 'Real value'],
+      ['Pagas solo el corte. Todo lo demás corre de nuestra cuenta.', 'Només pagues el tall. Tota la resta corre a compte nostre.', 'You only pay for the cut. Everything else is on us.'],
+      ['Reservar mi Primer Fade', 'Reservar el meu Primer Fade', 'Book my First Fade'],
+      ['Una vez por cliente. Reserva en Booksy o por WhatsApp.', 'Un cop per client. Reserva a Booksy o per WhatsApp.', 'Once per client. Book on Booksy or WhatsApp.'],
+      ['Si en los siete días siguientes a tu corte algo no te convence, vuelves y te lo retocamos gratis, con el mismo barbero o con el que tú elijas.', 'Si en els set dies següents al teu tall alguna cosa no et convenç, tornes i te la retoquem gratis, amb el mateix barber o amb el que triïs.', 'If anything is not right in the seven days after your cut, come back and we touch it up for free, with the same barber or one you choose.'],
+      ['La carta', 'La carta', 'The menu'],
+      ['Precios', 'Preus', 'Clear'],
+      ['claros', 'clars', 'prices'],
+      ['. Sin sorpresas al pagar.', '. Sense sorpreses en pagar.', '. No surprises at the till.'],
+      ['Todo', 'Tot', 'All'],
+      ['Corte', 'Tall', 'Cut'],
+      ['Barba', 'Barba', 'Beard'],
+      ['Combos', 'Combos', 'Combos'],
+      ['Peques y +65', 'Petits i +65', 'Kids and 65+'],
+      ['Corte de cabello', 'Tall de cabell', 'Haircut'],
+      ['Corte & barba', 'Tall i barba', 'Cut & beard'],
+      ['El más pedido', 'El més demanat', 'Most popular'],
+      ['Corte + cejas', 'Tall + celles', 'Cut + brows'],
+      ['Degradado y cejas', 'Degradat i celles', 'Fade and brows'],
+      ['Corte, barba + cejas', 'Tall, barba + celles', 'Cut, beard + brows'],
+      ['El servicio completo', 'El servei complet', 'The full service'],
+      ['Corte, barba + toalla caliente', 'Tall, barba + tovallola calenta', 'Cut, beard + hot towel'],
+      ['Experiencia', 'Experiència', 'Experience'],
+      ['Arreglo de barba', 'Arranjament de barba', 'Beard trim'],
+      ['Perfilado y forma', 'Perfilat i forma', 'Line-up and shape'],
+      ['Ritual de barba a la vieja escuela', 'Ritual de barba a la vella escola', 'Old-school beard ritual'],
+      ['Con toalla caliente', 'Amb tovallola calenta', 'With a hot towel'],
+      ['Niños hasta 6 años', 'Nens fins a 6 anys', 'Kids up to 6'],
+      ['Corte jubilado', 'Tall jubilat', 'Senior cut'],
+      ['Corte & barba jubilado', 'Tall i barba jubilat', 'Senior cut & beard'],
+      ['Tinte de cabello', 'Tint de cabell', 'Hair colour'],
+      ['Lunes a domingo, de 9 a 21', 'Dilluns a diumenge, de 9 a 21', 'Monday to Sunday, 9 to 9'],
+      ['Elegir mi servicio', 'Triar el meu servei', 'Choose my service'],
+      ['Los barberos', 'Els barbers', 'The barbers'],
+      ['Siete barberos.', 'Set barbers.', 'Seven barbers.'],
+      ['Un mismo nivel.', 'Un mateix nivell.', 'One standard.'],
+      ['Elige con quién te sientas o deja que te asignemos el primero libre. En las reseñas, el nombre de tu barbero sale tanto como la palabra «degradado».', "Tria amb qui seus o deixa que t'assignem el primer lliure. A les ressenyes, el nom del teu barber surt tant com la paraula «degradat».", 'Pick your barber or take the first one free. In our reviews, barbers are named as often as the word "fade".'],
+      ['El más nombrado en Google', 'El més anomenat a Google', 'Most mentioned on Google'],
+      ['Berni es el boss. Te da un trato personal y muy agradable y se fija en los detalles, para que te quede realmente el corte que quieres.', 'Berni es el boss. Te da un trato personal y muy agradable y se fija en los detalles, para que te quede realmente el corte que quieres.', 'Berni es el boss. Te da un trato personal y muy agradable y se fija en los detalles, para que te quede realmente el corte que quieres.'],
+      ['Reservar con Berni', 'Reservar amb Berni', 'Book with Berni'],
+      ['Reservar con Johan', 'Reservar amb Johan', 'Book with Johan'],
+      ['Reservar con Stefano', 'Reservar amb Stefano', 'Book with Stefano'],
+      ['Reservar con Alejandro', 'Reservar amb Alejandro', 'Book with Alejandro'],
+      ['Reservar con Santiago', 'Reservar amb Santiago', 'Book with Santiago'],
+      ['Reservar con Arturo', 'Reservar amb Arturo', 'Book with Arturo'],
+      ['Reservar con Juan', 'Reservar amb Juan', 'Book with Juan'],
+      ['El primero libre', 'El primer lliure', 'First available'],
+      ['¿Tienes prisa? Te sentamos con el primer barbero disponible.', "Tens pressa? T'asseiem amb el primer barber disponible.", 'In a hurry? We seat you with the first barber available.'],
+      ['Murales, buena música y luz', 'Murals, bona música i llum', 'Murals, good music and'],
+      ['hexagonal', 'hexagonal', 'hexagon lights'],
+      ['Aquí no se viene solo a cortarse el pelo. Se viene a pasar un buen rato, a charlar con tu barbero y a salir con la cabeza alta.', 'Aquí no es ve només a tallar-se el cabell. Es ve a passar una bona estona, a xerrar amb el teu barber i a sortir amb el cap ben alt.', 'You do not just come here for a haircut. You come for a good time, a chat with your barber, and to walk out with your head high.'],
+      ['Abierto los 7 días', 'Obert els 7 dies', 'Open 7 days'],
+      ['Música y buen ambiente', 'Música i bon ambient', 'Music and good vibes'],
+      ['Arte urbano en las paredes', 'Art urbà a les parets', 'Street art on the walls'],
+      ['Accesible en silla de ruedas', 'Accessible amb cadira de rodes', 'Wheelchair accessible'],
+      ['Trabajos reales', 'Treballs reals', 'Real work'],
+      ['Hecho en', 'Fet a', 'Made at'],
+      ['Benavent, 2', 'Benavent, 2', 'Benavent, 2'],
+      ['Desliza', 'Llisca', 'Swipe'],
+      ['El próximo eres tú.', 'El pròxim ets tu.', 'You are next.'],
+      ['Tu degradado, con garantía de siete días.', 'El teu degradat, amb garantia de set dies.', 'Your fade, with a seven-day guarantee.'],
+      ['Peques y mayores', 'Petits i grans', 'Kids and seniors'],
+      ['Los peques salen contentos.', 'Els petits surten contents.', 'Kids leave happy.'],
+      ['Los abuelos, también.', 'Els avis, també.', 'So do grandads.'],
+      ['Paciencia de verdad con los más pequeños y precio especial para jubilados. Toda la familia en la misma barbería.', 'Paciència de debò amb els més petits i preu especial per a jubilats. Tota la família a la mateixa barberia.', 'Real patience with little ones and a special price for seniors. The whole family in one barbershop.'],
+      ['2.693 reseñas.', '2.693 ressenyes.', '2,693 reviews.'],
+      ['El mismo veredicto.', 'El mateix veredicte.', 'One verdict.'],
+      ['Reseñas reales de clientes en Google y Booksy. Casi todas dicen lo mismo: entienden lo que pides, cuidan el detalle y el ambiente es de diez.', 'Ressenyes reals de clients a Google i Booksy. Gairebé totes diuen el mateix: entenen el que demanes, cuiden el detall i l\'ambient és de deu.', 'Real client reviews on Google and Booksy. Nearly all say the same: they get what you ask for, they sweat the details and the vibe is a ten.'],
+      ['923 reseñas', '923 ressenyes', '923 reviews'],
+      ['1.770 reseñas', '1.770 ressenyes', '1,770 reviews'],
+      ['Booksy · cliente verificado', 'Booksy · client verificat', 'Booksy · verified client'],
+      ['Ver las reseñas en Google', 'Veure les ressenyes a Google', 'See the reviews on Google'],
+      ['Ver las reseñas en Booksy', 'Veure les ressenyes a Booksy', 'See the reviews on Booksy'],
+      ['Club La Barbería', 'Club La Barberia', 'La Barbería Club'],
+      ['Siempre fresco.', 'Sempre fresc.', 'Always fresh.'],
+      ['Pagando menos.', 'Pagant menys.', 'Paying less.'],
+      ['Un degradado se ve perfecto unas tres semanas. Para los que no quieren pasar ni un día sin estar al cien.', 'Un degradat es veu perfecte unes tres setmanes. Per als que no volen passar ni un dia sense estar al cent per cent.', 'A fade looks perfect for about three weeks. For those who never want a day off.'],
+      ['Bono 5 cortes', 'Bo 5 talls', '5-cut pass'],
+      ['Cinco cortes por el precio de cuatro. Lo usas cuando quieras, con el barbero que quieras.', 'Cinc talls pel preu de quatre. El fas servir quan vulguis, amb el barber que vulguis.', 'Five cuts for the price of four. Use them whenever you like, with any barber.'],
+      ['Gratis', 'Gratis', 'Free'],
+      ['en lugar de', 'en lloc de', 'instead of'],
+      ['Pedir mi bono', 'Demanar el meu bo', 'Get my pass'],
+      ['Trae a un amigo', 'Porta un amic', 'Bring a friend'],
+      ['Cuando tu amigo venga a su Primer Fade, tus próximas cejas a navaja van por la casa. Sin límite de amigos.', 'Quan el teu amic vingui al seu Primer Fade, les teves properes celles a navalla van a compte de la casa. Sense límit d\'amics.', 'When your friend comes for their First Fade, your next razor brows are on the house. No limit on friends.'],
+      ['Invitar por WhatsApp', 'Convidar per WhatsApp', 'Invite on WhatsApp'],
+      ['Cómo funciona', 'Com funciona', 'How it works'],
+      ['Reservar cuesta', 'Reservar costa', 'Booking takes'],
+      ['30 segundos', '30 segons', '30 seconds'],
+      ['Elige servicio y barbero', 'Tria servei i barber', 'Pick a service and barber'],
+      ['Aquí abajo, en Booksy o por WhatsApp. Ves los huecos libres al momento.', 'Aquí sota, a Booksy o per WhatsApp. Veus els forats lliures al moment.', 'Right below, on Booksy or WhatsApp. You see free slots instantly.'],
+      ['Ven a Benavent, 2', 'Vine a Benavent, 2', 'Come to Benavent, 2'],
+      ['En Les Corts, cerca del metro Badal. Abrimos todos los días de 9 a 21 h.', 'A Les Corts, a prop del metro Badal. Obrim cada dia de 9 a 21 h.', 'In Les Corts, near Badal metro. Open every day from 9 am to 9 pm.'],
+      ['Sal con tu mejor degradado', 'Surt amb el teu millor degradat', 'Walk out with your best fade'],
+      ['Y si en siete días algo no te convence, te lo retocamos gratis.', 'I si en set dies alguna cosa no et convenç, te la retoquem gratis.', 'And if anything is off within seven days, we touch it up for free.'],
+      ['Preguntas frecuentes', 'Preguntes freqüents', 'FAQ'],
+      ['Lo que nos', 'El que ens', 'What people'],
+      ['preguntan', 'pregunten', 'ask us'],
+      ['¿No encuentras la tuya? Escríbenos por WhatsApp y te contestamos enseguida.', 'No hi trobes la teva? Escriu-nos per WhatsApp i et responem de seguida.', 'Not here? Message us on WhatsApp and we will reply right away.'],
+      ['¿Necesito cita?', 'Necessito cita?', 'Do I need an appointment?'],
+      ['Te recomendamos reservar para no esperar: en Booksy tienes los huecos libres de cada barbero. Si prefieres, llámanos al 677 72 04 42 y te decimos si hay sitio ahora mismo.', "Et recomanem reservar per no esperar: a Booksy tens els forats lliures de cada barber. Si ho prefereixes, truca'ns al 677 72 04 42 i et diem si hi ha lloc ara mateix.", 'We recommend booking so you do not wait: Booksy shows each barber\'s free slots. Or call 677 72 04 42 and we will tell you if there is a chair right now.'],
+      ['¿Cómo se paga?', 'Com es paga?', 'How do I pay?'],
+      ['En el local y en efectivo, por favor.', 'Al local i en efectiu, si us plau.', 'In the shop, in cash please.'],
+      ['¿Qué incluye el Primer Fade?', 'Què inclou el Primer Fade?', 'What does the First Fade include?'],
+      ['Asesoría de estilo, corte y degradado, cejas a navaja, lavado y la Garantía Degradado Perfecto de siete días. Pagas 17 €, el precio del corte. Es para tu primera visita.', "Assessorament d'estil, tall i degradat, celles a navalla, rentat i la Garantia Degradat Perfecte de set dies. Pagues 17 €, el preu del tall. És per a la teva primera visita.", 'Style advice, cut and fade, razor brows, a wash and the seven-day Perfect Fade Guarantee. You pay €17, the price of the cut. It is for your first visit.'],
+      ['¿Y si el corte no me convence?', 'I si el tall no em convenç?', 'What if I do not like the cut?'],
+      ['Vuelves en los siete días siguientes y te lo retocamos gratis, con el mismo barbero o con otro si lo prefieres.', 'Tornes en els set dies següents i te\'l retoquem gratis, amb el mateix barber o amb un altre si ho prefereixes.', 'Come back within seven days and we touch it up for free, with the same barber or another if you prefer.'],
+      ['¿Cuánto se tarda?', 'Quant es triga?', 'How long does it take?'],
+      ['Un corte, unos 30 minutos. Corte y barba, 45 minutos. El servicio completo con toalla caliente, unos 50 minutos.', 'Un tall, uns 30 minuts. Tall i barba, 45 minuts. El servei complet amb tovallola calenta, uns 50 minuts.', 'A cut, about 30 minutes. Cut and beard, 45 minutes. The full service with a hot towel, about 50 minutes.'],
+      ['¿Cortáis a niños?', 'Talleu el cabell a nens?', 'Do you cut kids\' hair?'],
+      ['Sí, y con mucha paciencia. El corte para niños de hasta 6 años cuesta 15 €.', 'Sí, i amb molta paciència. El tall per a nens de fins a 6 anys costa 15 €.', 'Yes, with plenty of patience. A cut for kids up to 6 is €15.'],
+      ['¿Abrís los domingos?', 'Obriu els diumenges?', 'Are you open on Sundays?'],
+      ['Sí. Abrimos de lunes a domingo, de 9 a 21 h. En festivos el horario puede cambiar.', "Sí. Obrim de dilluns a diumenge, de 9 a 21 h. Els festius l'horari pot canviar.", 'Yes. We open Monday to Sunday, 9 am to 9 pm. Hours may change on public holidays.'],
+      ['En pleno', 'En ple', 'Right in'],
+      ['Les Corts', 'Les Corts', 'Les Corts'],
+      ['Carrer de Benavent, 2. A pocos minutos a pie del metro Badal.', 'Carrer de Benavent, 2. A pocs minuts a peu del metro Badal.', 'Carrer de Benavent, 2. A short walk from Badal metro.'],
+      ['Haz clic para mover el mapa', 'Fes clic per moure el mapa', 'Click to move the map'],
+      ['Horario', 'Horari', 'Hours'],
+      ['Lunes a viernes', 'Dilluns a divendres', 'Monday to Friday'],
+      ['Sábado y domingo', 'Dissabte i diumenge', 'Saturday and Sunday'],
+      ['Cómo llegar', 'Com arribar', 'Directions'],
+      ['Llamar', 'Trucar', 'Call'],
+      ['Arma tu', 'Munta la teva', 'Build your'],
+      ['cita', 'cita', 'appointment'],
+      ['Marca lo que quieres y con quién. Te calculamos el precio y te preparamos la reserva.', 'Marca el que vols i amb qui. Et calculem el preu i et preparem la reserva.', 'Tick what you want and who with. We work out the price and set up your booking.'],
+      ['1 · ¿Qué te hacemos?', '1 · Què et fem?', '1 · What are we doing?'],
+      ['Arreglo y perfilado', 'Arranjament i perfilat', 'Trim and line-up'],
+      ['Cejas', 'Celles', 'Brows'],
+      ['A navaja', 'A navalla', 'With a razor'],
+      ['Toalla caliente', 'Tovallola calenta', 'Hot towel'],
+      ['Ritual de barba', 'Ritual de barba', 'Beard ritual'],
+      ['Antes o después', 'Abans o després', 'Before or after'],
+      ['Es mi primera vez: quiero el', 'És la meva primera vegada: vull el', 'It is my first time: I want the'],
+      ['(cejas y lavado de regalo).', '(celles i rentat de regal).', '(free brows and wash).'],
+      ['2 · ¿Con quién?', '2 · Amb qui?', '2 · Who with?'],
+      ['Tu cita', 'La teva cita', 'Your appointment'],
+      ['Barbero', 'Barber', 'Barber'],
+      ['Duración', 'Durada', 'Duration'],
+      ['Total', 'Total', 'Total'],
+      ['Reservar en Booksy', 'Reservar a Booksy', 'Book on Booksy'],
+      ['Reservar por WhatsApp', 'Reservar per WhatsApp', 'Book on WhatsApp'],
+      ['Pago en el local, en efectivo', 'Pagament al local, en efectiu', 'Pay in the shop, in cash'],
+      ['Tu silla', 'La teva cadira', 'Your chair'],
+      ['te espera', "t'espera", 'is waiting'],
+      ['Hoy abrimos hasta las 21:00. Reserva en 30 segundos.', 'Avui obrim fins a les 21:00. Reserva en 30 segons.', 'Open today until 9 pm. Book in 30 seconds.'],
+      ['Preguntas', 'Preguntes', 'FAQ'],
+      ['La Barbería Shop. Barbería en Les Corts, Barcelona.', 'La Barbería Shop. Barberia a Les Corts, Barcelona.', 'La Barbería Shop. Barbershop in Les Corts, Barcelona.'],
+      ['Aviso legal · Privacidad', 'Avís legal · Privacitat', 'Legal notice · Privacy'],
+      // attributes
+      ['Capítulos', 'Capítols', 'Sections'],
+      ['La Barbería Shop, inicio', 'La Barbería Shop, inici', 'La Barbería Shop, home'],
+      ['Abrir el menú', 'Obrir el menú', 'Open menu'],
+      ['Menú móvil', 'Menú mòbil', 'Mobile menu'],
+      ['Principal', 'Principal', 'Main'],
+      ['Idioma', 'Idioma', 'Language'],
+      ['La barbería en cifras', 'La barberia en xifres', 'The shop in numbers'],
+      ['Filtrar la carta', 'Filtrar la carta', 'Filter the menu'],
+      ['Reseñas de clientes', 'Ressenyes de clients', 'Client reviews'],
+      ['Activa el mapa', 'Activa el mapa', 'Activate the map'],
+      ['Mapa de La Barbería Shop', 'Mapa de La Barbería Shop', 'Map of La Barbería Shop'],
+      ['Acciones rápidas', 'Accions ràpides', 'Quick actions'],
+      // runtime strings
+      ['Abierto ahora · hasta las 21:00', 'Obert ara · fins a les 21:00', 'Open now · until 9 pm'],
+      ['Cerrado ahora · abrimos a las 9:00', 'Tancat ara · obrim a les 9:00', 'Closed now · opens at 9 am'],
+      ['Ahorras {n} €', 'Estalvies {n} €', 'You save €{n}'],
+      ['Elige al menos un servicio', 'Tria almenys un servei', 'Pick at least one service'],
+      ['Primer Fade (corte + cejas + lavado)', 'Primer Fade (tall + celles + rentat)', 'First Fade (cut + brows + wash)'],
+      ['Cejas y lavado de regalo: ahorras {n} €', 'Celles i rentat de regal: estalvies {n} €', 'Free brows and wash: you save €{n}'],
+      ['¡Hola! Quiero reservar: {s} ({p}). Barbero: {b}. ¿Qué huecos tenéis?', 'Hola! Vull reservar: {s} ({p}). Barber: {b}. Quins forats teniu?', 'Hi! I would like to book: {s} ({p}). Barber: {b}. What slots do you have?'],
+      ['Me corto en La Barbería Shop (Les Corts) y es el mejor degradado de Barcelona. Si vas por primera vez, pide el Primer Fade: corte + cejas + lavado por 17 €. Diles que vas de mi parte.', 'Em tallo a La Barbería Shop (Les Corts) i és el millor degradat de Barcelona. Si hi vas per primera vegada, demana el Primer Fade: tall + celles + rentat per 17 €. Digues que hi vas de part meva.', 'I get my hair cut at La Barbería Shop (Les Corts), best fade in Barcelona. First time? Ask for the First Fade: cut + brows + wash for €17. Tell them I sent you.'],
+      ['Ritual de barba + cejas', 'Ritual de barba + celles', 'Beard ritual + brows'],
+      ['Arreglo de barba + cejas', 'Arranjament de barba + celles', 'Beard trim + brows'],
+      ['Corte, barba, toalla caliente + cejas', 'Tall, barba, tovallola calenta + celles', 'Cut, beard, hot towel + brows'],
+      ['+ lavado', '+ rentat', '+ wash']
+    ];
+    var DICT = {};
+    T.forEach(function (r) { DICT[r[0]] = { ca: r[1], en: r[2] }; });
+    var lang = 'es';
+    function t(es) { if (lang === 'es') return es; var e = DICT[es]; return e ? e[lang] : es; }
+
+    // Snapshot the Spanish source once: text nodes, attributes and the headings' original HTML.
+    var textNodes = [], attrEls = [], heads = [];
+    document.querySelectorAll('h1, h2').forEach(function (h) { heads.push({ el: h, es: h.innerHTML }); });
+    (function collect() {
+      var w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, { acceptNode: function (n) {
+        var p = n.parentElement;
+        if (!p || p.closest('script,style,svg,h1,h2,blockquote[lang],q,#t-svc,#t-who,#t-dur,#t-tot,#t-save,#open-now')) return NodeFilter.FILTER_REJECT;
+        return n.nodeValue.trim() ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      } });
+      var n;
+      while ((n = w.nextNode())) {
+        var m = n.nodeValue.match(/^(\s*)([\s\S]*?)(\s*)$/);
+        var key = m[2].replace(/\s+/g, ' ');
+        if (DICT[key]) textNodes.push({ n: n, pre: m[1], key: key, post: m[3] });
+      }
+      document.querySelectorAll('[alt],[aria-label],[title]').forEach(function (el) {
+        if (el.closest('svg')) return;
+        ['alt', 'aria-label', 'title'].forEach(function (a) {
+          var v = el.getAttribute(a);
+          if (v && DICT[v.trim()]) attrEls.push({ el: el, a: a, key: v.trim() });
+        });
+      });
+    })();
+    function trHTML(html) {
+      var tmp = document.createElement('div'); tmp.innerHTML = html;
+      var w = document.createTreeWalker(tmp, NodeFilter.SHOW_TEXT), n;
+      while ((n = w.nextNode())) { var m = n.nodeValue.match(/^(\s*)([\s\S]*?)(\s*)$/); var k = m[2].replace(/\s+/g, ' '); if (DICT[k]) n.nodeValue = m[1] + t(k) + m[3]; }
+      return tmp.innerHTML;
+    }
+    var map = document.getElementById('map');
+    function setLang(l) {
+      lang = l;
+      document.documentElement.lang = l;
+      textNodes.forEach(function (x) { x.n.nodeValue = x.pre + t(x.key) + x.post; });
+      attrEls.forEach(function (x) { x.el.setAttribute(x.a, t(x.key)); });
+      heads.forEach(function (h) { h.el.innerHTML = l === 'es' ? h.es : trHTML(h.es); h.el.removeAttribute('aria-label'); });
+      document.querySelectorAll('.lang button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-lang') === l)); });
+      if (map) map.src = map.src.replace(/hl=\w+/, 'hl=' + l);
+      updateOpen(); price(); share();
+      try { localStorage.setItem('lbs-lang', l); } catch (e) {}
+      if (window.ScrollTrigger) ScrollTrigger.refresh();
+    }
+
+    // Open-now indicator in Barcelona time (every day 9:00-21:00)
+    function updateOpen() {
+      var el = document.getElementById('open-now'); if (!el) return;
+      var now = new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/Madrid' }));
+      var d = now.getDay(), mins = now.getHours() * 60 + now.getMinutes();
+      var open = mins >= 540 && mins < 1260;
+      el.classList.toggle('closed', !open);
+      el.querySelector('span').textContent = t(open ? 'Abierto ahora · hasta las 21:00' : 'Cerrado ahora · abrimos a las 9:00');
+      document.querySelectorAll('.hours tr').forEach(function (tr) { tr.classList.toggle('today', (' ' + tr.getAttribute('data-days') + ' ').indexOf(' ' + d + ' ') > -1); });
+    }
+
+    // ---------- Appointment builder: maps the ticks to the shop's real Booksy services ----------
+    var bf = document.getElementById('builder');
+    var first = document.getElementById('first');
+    function sel(v) { return document.getElementById('s-' + v).checked; }
+    // Prices and durations are the shop's Booksy services. "list" is what the parts cost one by one.
+    function quote() {
+      var c = sel('c'), b = sel('b'), e = sel('e'), tw = sel('t'), l = sel('l');
+      var gift = first.checked && c;
+      if (gift) { e = false; l = false; } // First Fade: brows and wash are on the house
+      var s = null, p = 0, m = 0, list = 0;
+      if (c && b && tw) { s = e ? 'Corte, barba, toalla caliente + cejas' : 'Corte, barba + toalla caliente'; p = 32 + (e ? 3 : 0); m = 50 + (e ? 5 : 0); list = 17 + 17 + (e ? 3 : 0); }
+      else if (c && b && e) { s = 'Corte, barba + cejas'; p = 31; m = 55; list = 33; }
+      else if (c && b) { s = 'Corte & barba'; p = 27; m = 45; list = 30; }
+      else if (c && e) { s = 'Corte + cejas'; p = 20; m = 35; list = 20; }
+      else if (c) { s = 'Corte de cabello'; p = 17; m = 30; list = 17; }
+      else if (b && tw) { s = e ? 'Ritual de barba + cejas' : 'Ritual de barba a la vieja escuela'; p = 17 + (e ? 3 : 0); m = 25 + (e ? 5 : 0); list = p; }
+      else if (b) { s = e ? 'Arreglo de barba + cejas' : 'Arreglo de barba'; p = 13 + (e ? 3 : 0); m = 15 + (e ? 5 : 0); list = p; }
+      else if (e) { s = 'Cejas a navaja'; p = 3; m = 5; list = 3; }
+      if (s && l) { p += 5; m += 5; list += 5; }
+      if (gift) { m += 10; list += 8; if (s === 'Corte de cabello') s = 'Primer Fade (corte + cejas + lavado)'; }
+      return { s: s, p: p, m: m, save: Math.max(0, list - p), gift: gift, wash: l };
+    }
+    function fmtDur(m) { return m >= 60 ? Math.floor(m / 60) + ' h ' + (m % 60 ? (m % 60) + ' min' : '') : m + ' min'; }
+    function price() {
+      if (!bf) return;
+      var q = quote();
+      var who = (bf.querySelector('input[name=who]:checked') || {}).value || '';
+      var svc = !q.s ? t('Elige al menos un servicio') : t(q.s) + (q.wash ? ' ' + t('+ lavado') : '') + (q.gift && q.s.indexOf('Primer') < 0 ? ' · ' + t('Primer Fade') : '');
+      document.getElementById('t-svc').textContent = svc;
+      document.getElementById('t-who').textContent = who || t('El primero libre');
+      document.getElementById('t-dur').textContent = q.s ? fmtDur(q.m) : '–';
+      document.getElementById('t-tot').textContent = q.s ? q.p + ' €' : '–';
+      document.getElementById('t-save').textContent = !q.s ? '' : (q.gift ? t('Cejas y lavado de regalo: ahorras {n} €').replace('{n}', q.save) : (q.save > 0 ? t('Ahorras {n} €').replace('{n}', q.save) : ''));
+      var msg = t('¡Hola! Quiero reservar: {s} ({p}). Barbero: {b}. ¿Qué huecos tenéis?').replace('{s}', svc).replace('{p}', q.p + ' €').replace('{b}', who || t('El primero libre'));
+      document.getElementById('t-wa').href = 'https://wa.me/' + WA + '?text=' + encodeURIComponent(msg);
+    }
+    if (bf) {
+      bf.addEventListener('change', function (ev) {
+        // A hot towel is a beard ritual, so it needs the beard
+        if (ev.target.id === 's-t' && ev.target.checked) document.getElementById('s-b').checked = true;
+        if (ev.target.id === 's-b' && !ev.target.checked) document.getElementById('s-t').checked = false;
+        if (ev.target.id === 'first' && ev.target.checked) document.getElementById('s-c').checked = true;
+        price();
+      });
+    }
+    // Any "book with X" link preselects that barber; the First Fade buttons tick the offer
+    document.querySelectorAll('[data-barber]').forEach(function (a) {
+      a.addEventListener('click', function () {
+        var v = a.getAttribute('data-barber');
+        bf.querySelectorAll('input[name=who]').forEach(function (r) { r.checked = r.value === v; });
+        price();
+      });
+    });
+    document.querySelectorAll('a[href="#reserva"]').forEach(function (a) {
+      if (/Primer Fade|First Fade/.test(a.textContent) || a.hasAttribute('data-first')) a.addEventListener('click', function () { first.checked = true; document.getElementById('s-c').checked = true; price(); });
+    });
+    function share() {
+      var s = document.getElementById('share');
+      if (s) s.href = 'https://wa.me/?text=' + encodeURIComponent(t('Me corto en La Barbería Shop (Les Corts) y es el mejor degradado de Barcelona. Si vas por primera vez, pide el Primer Fade: corte + cejas + lavado por 17 €. Diles que vas de mi parte.') + ' ' + location.href.split('#')[0]);
+    }
+
+    // Menu filter
+    var tabs = document.querySelectorAll('.tabs button');
+    tabs.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var f = b.getAttribute('data-f');
+        tabs.forEach(function (x) { x.setAttribute('aria-selected', String(x === b)); });
+        document.querySelectorAll('.board .item').forEach(function (it) {
+          var on = f === 'all' || (' ' + it.getAttribute('data-k') + ' ').indexOf(' ' + f + ' ') > -1;
+          it.classList.toggle('dim', !on);
+        });
+      });
+    });
+
+    var start = 'es';
+    try { start = localStorage.getItem('lbs-lang') || ''; } catch (e) {}
+    if (!start) {
+      start = 'es';
+      var navs = navigator.languages || [navigator.language || ''];
+      for (var i = 0; i < navs.length; i++) { var c = (navs[i] || '').slice(0, 2).toLowerCase(); if (c === 'ca' || c === 'es' || c === 'en') { start = c; break; } }
+    }
+    if (start !== 'es') setLang(start); else { updateOpen(); price(); share(); }
+    document.querySelectorAll('.lang button').forEach(function (b) { b.addEventListener('click', function () { setLang(b.getAttribute('data-lang')); }); });
+
+    // Map: a click activates it, so the page scroll is never captured by the iframe
+    var mapWrap = document.querySelector('.map-wrap');
+    if (mapWrap) {
+      mapWrap.querySelector('.map-shield').addEventListener('click', function () { mapWrap.classList.add('live'); });
+      mapWrap.addEventListener('mouseleave', function () { mapWrap.classList.remove('live'); });
+    }
+
+    // Reveal on scroll
+    var els = document.querySelectorAll('.rv');
+    var top = document.getElementById('top');
+    var bar = document.querySelector('.bar');
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+      els.forEach(function (el) { io.observe(el); });
+      new IntersectionObserver(function (e) { top.classList.toggle('scrolled', !e[0].isIntersecting); bar.classList.toggle('show', !e[0].isIntersecting); }).observe(document.querySelector('.hero .ctas'));
+    } else {
+      els.forEach(function (el) { el.classList.add('in'); });
+      bar.classList.add('show');
+    }
+
+    // Mobile menu
+    var btn = document.querySelector('.menu-btn'), mnav = document.getElementById('mnav');
+    btn.addEventListener('click', function () { var open = mnav.classList.toggle('open'); btn.setAttribute('aria-expanded', open); });
+    mnav.addEventListener('click', function (e) { if (e.target.closest('a')) { mnav.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); } });
+
+    // ---------- Concave carousel ----------
+    // Cards sit on the inside of a cylinder around the viewer. Angle a = position on the ring
+    // relative to straight ahead; x = R·sin a, z = −R·cos a + shift, and each card turns −a to face the centre.
+    // It turns on its own (autoplay); hover, drag, arrows or keys pause it, and it resumes a few seconds later.
+    var cc = (function () {
+      var sec = document.getElementById('trabajos');
+      var stage = sec && sec.querySelector('.htrack-wrap');
+      var ring = stage && stage.querySelector('.htrack');
+      if (!ring || !('requestAnimationFrame' in window)) return null;
+      var cards = Array.prototype.slice.call(ring.querySelectorAll('figure'));
+      var N = cards.length, step = 360 / N, R = 0, shift = 0;
+      var cur = 0, scroll = 0, drag = 0;
+      var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var counter = sec.querySelector('.cc-n');
+      sec.classList.add('cc-on');
+      stage.setAttribute('tabindex', '0');
+      stage.setAttribute('role', 'region');
+      stage.setAttribute('aria-roledescription', 'carrusel');
+      function size() {
+        var cw = innerWidth < 700 ? Math.min(250, innerWidth * .6) : Math.max(230, Math.min(400, innerWidth * .26, innerHeight * .4));
+        stage.style.setProperty('--cw', cw + 'px');
+        R = N * (cw + 22) / (2 * Math.PI);
+        // Front photo sits a little behind the screen plane; the sides wrap forward around the viewer
+        shift = R - cw * (innerWidth < 700 ? .5 : .35);
+      }
+      function norm(a) { return ((a + 180) % 360 + 360) % 360 - 180; }
+      function pad(n) { return (n < 10 ? '0' : '') + n; }
+      var last = -1, prev = 0, hold = 0, hover = false, inView = false;
+      var SPEED = 7; // degrees per second, about one photo every 3.7 s
+      function pause(ms) { hold = Math.max(hold, performance.now() + (ms || 3000)); }
+      function render(now) {
+        var dt = prev ? Math.min(64, now - prev) : 16; prev = now;
+        if (!reduce && inView && !down && !hover && now > hold && !document.hidden) drag -= SPEED * dt / 1000;
+        var target = scroll + drag;
+        cur += (target - cur) * (reduce ? 1 : .085);
+        if (Math.abs(target - cur) < .002) cur = target;
+        var front = ((Math.round(-cur / step) % N) + N) % N;
+        for (var i = 0; i < N; i++) {
+          var a = norm(i * step + cur), r = a * Math.PI / 180, v = Math.abs(a);
+          var c = cards[i];
+          c.style.transform = 'translate3d(' + (R * Math.sin(r)).toFixed(1) + 'px,0,' + (-R * Math.cos(r) + shift).toFixed(1) + 'px) rotateY(' + (-a).toFixed(2) + 'deg)';
+          c.style.opacity = v > 82 ? 0 : v > 60 ? ((82 - v) / 22).toFixed(3) : 1;
+          c.style.visibility = v > 84 ? 'hidden' : 'visible';
+          c.style.setProperty('--dim', Math.min(.6, v / 110).toFixed(3));
+        }
+        if (front !== last) {
+          cards.forEach(function (c, k) { c.classList.toggle('front', k === front); });
+          if (counter) counter.textContent = pad(front + 1) + ' / ' + pad(N);
+          last = front;
+        }
+        requestAnimationFrame(render);
+      }
+      function snap() { var total = scroll + drag; drag = Math.round(total / step) * step - scroll; }
+      function go(d) { snap(); drag += d * step; pause(4000); }
+
+      // Drag with a little inertia, then settle on the nearest photo
+      var down = false, sx = 0, lx = 0, vx = 0, lt = 0, moved = 0;
+      stage.addEventListener('pointerdown', function (e) {
+        if (e.button !== 0) return;
+        down = true; moved = 0; sx = lx = e.clientX; vx = 0; lt = performance.now(); pause();
+        stage.classList.add('grabbing');
+      });
+      window.addEventListener('pointermove', function (e) {
+        if (!down) return;
+        var dx = e.clientX - lx, now = performance.now();
+        drag += dx * .11; moved += Math.abs(dx);
+        vx = dx / Math.max(1, now - lt); lx = e.clientX; lt = now;
+      });
+      function release(e) {
+        if (!down) return;
+        down = false; stage.classList.remove('grabbing');
+        if (moved < 6 && e && e.type === 'pointerup') {
+          // A tap on a side photo brings it to the front
+          var fig = e.target.closest && e.target.closest('figure');
+          var i = cards.indexOf(fig);
+          if (i > -1) drag -= norm(i * step + scroll + drag);
+        } else {
+          drag += vx * 14;
+        }
+        snap(); pause();
+      }
+      window.addEventListener('pointerup', release);
+      window.addEventListener('pointercancel', release);
+      stage.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowLeft') { go(1); e.preventDefault(); }
+        if (e.key === 'ArrowRight') { go(-1); e.preventDefault(); }
+      });
+      sec.querySelector('.cc-prev').addEventListener('click', function () { go(1); });
+      sec.querySelector('.cc-next').addEventListener('click', function () { go(-1); });
+      // Pause while the pointer rests on the wall (desktop) or the wall has keyboard focus; only spin when visible
+      stage.addEventListener('pointerenter', function (e) { if (e.pointerType === 'mouse') hover = true; });
+      stage.addEventListener('pointerleave', function () { hover = false; });
+      stage.addEventListener('focusin', function () { hover = true; });
+      stage.addEventListener('focusout', function () { hover = false; });
+      if ('IntersectionObserver' in window) new IntersectionObserver(function (en) { inView = en[0].isIntersecting; }).observe(stage); else inView = true;
+      size();
+      window.addEventListener('resize', size);
+      requestAnimationFrame(render);
+      return {};
+    })();
+
+    // ---------- Motion layer ----------
+    // Runs only when html.motion is set (motion allowed) and GSAP loaded. Otherwise the page stays static and complete.
+    var root = document.documentElement;
+    var intro = document.querySelector('.intro');
+    var h1 = document.querySelector('.hero h1');
+    function staticPage() {
+      root.classList.remove('motion');
+      if (intro) intro.remove();
+      document.querySelectorAll('.rv').forEach(function (el) { el.classList.add('in'); });
+    }
+    if (!root.classList.contains('motion')) return;
+    if (!window.gsap || !window.ScrollTrigger) { staticPage(); return; }
+    gsap.registerPlugin(ScrollTrigger);
+    var ease = 'expo.out';
+
+    // Smooth scroll, synced with ScrollTrigger
+    var lenis = null;
+    if (window.Lenis) {
+      lenis = new Lenis({ lerp: 0.09, smoothWheel: true, wheelMultiplier: 1 });
+      lenis.on('scroll', ScrollTrigger.update);
+      gsap.ticker.add(function (tm) { lenis.raf(tm * 1000); });
+      gsap.ticker.lagSmoothing(0);
+      document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          var id = a.getAttribute('href');
+          var target = id.length > 1 && document.querySelector(id);
+          if (!target) return;
+          e.preventDefault();
+          lenis.scrollTo(target, { offset: -72, duration: 1.4 });
+        });
+      });
+    }
+
+    // Split headings into words for a masked reveal
+    function split(el) {
+      var walk = function (node) {
+        Array.prototype.slice.call(node.childNodes).forEach(function (n) {
+          if (n.nodeType === 3) {
+            var frag = document.createDocumentFragment();
+            n.textContent.split(/(\s+)/).forEach(function (part) {
+              if (!part) return;
+              if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(' ')); return; }
+              var w = document.createElement('span'); w.className = 'w';
+              var i = document.createElement('span'); i.textContent = part;
+              w.appendChild(i); frag.appendChild(w);
+            });
+            n.parentNode.replaceChild(frag, n);
+          } else if (n.nodeType === 1) { walk(n); }
+        });
+      };
+      el.setAttribute('aria-label', el.textContent.trim());
+      walk(el);
+      return el.querySelectorAll('.w > span');
+    }
+
+    // Intro curtain, then the headline rises word by word and "Posiblemente" gets crossed out
+    h1.classList.remove('rv');
+    var h1Words = split(h1);
+    gsap.set(h1Words, { yPercent: 115 });
+    var heroBits = document.querySelectorAll('.hero .eyebrow, .hero .lead, .hero .ctas, .hero .rating');
+    heroBits.forEach(function (el) { el.classList.remove('rv'); });
+    gsap.set(heroBits, { opacity: 0, y: 24 });
+    gsap.set('.trio .t1, .trio .t2 img, .trio .t3', { opacity: 0, y: 70 });
+    var tl = gsap.timeline({ defaults: { ease: ease } });
+    if (intro) {
+      tl.to('.intro img', { opacity: 1, scale: 1, duration: .7, ease: 'power2.out' })
+        .to('.intro .bar-load i', { scaleX: 1, duration: .8, ease: 'power2.inOut' }, '<')
+        .to(intro, { yPercent: -100, duration: 1, ease: 'expo.inOut' }, '+=.1')
+        .set(intro, { display: 'none' });
+    }
+    tl.to(heroBits[0], { opacity: 1, y: 0, duration: 1 }, intro ? '-=.55' : 0)
+      .to(h1Words, { yPercent: 0, duration: 1.2, stagger: .06 }, '<.05')
+      .add(function () { h1.classList.add('struck'); }, '-=.3')
+      .to([heroBits[1], heroBits[2], heroBits[3]], { opacity: 1, y: 0, duration: 1, stagger: .1 }, '<.5')
+      .to('.trio .t2 img', { opacity: 1, y: 0, duration: 1.3 }, '<.1')
+      .to('.trio .t1, .trio .t3', { opacity: 1, y: 0, duration: 1.3, stagger: .08 }, '<.12');
+    setTimeout(function () { if (intro && intro.parentNode) intro.style.display = 'none'; h1.classList.add('struck'); }, 4500);
+
+    var mm = gsap.matchMedia();
+
+    // Hero stage (desktop): side photos step aside, the centre photo opens to full screen
+    mm.add('(min-width: 900px)', function () {
+      var hero = document.querySelector('.hero');
+      var t2 = document.querySelector('.trio .t2');
+      function cover() {
+        var h = hero.getBoundingClientRect(), r = t2.getBoundingClientRect();
+        var s = Math.max(innerWidth / r.width, innerHeight / r.height) * 1.02;
+        return { s: s, x: innerWidth / 2 - (r.left + r.width / 2), y: innerHeight / 2 - (r.top - h.top + r.height / 2) };
+      }
+      var c = cover();
+      ScrollTrigger.addEventListener('refreshInit', function () { gsap.set(t2, { clearProps: 'transform' }); c = cover(); });
+      var st = gsap.timeline({ scrollTrigger: { trigger: hero, start: 'top top', end: '+=140%', scrub: 1, pin: true, anticipatePin: 1, invalidateOnRefresh: true, refreshPriority: 2 } });
+      var ir = { immediateRender: false, ease: 'none' };
+      st.fromTo('.hero-copy', { y: 0, opacity: 1 }, Object.assign({ y: -90, opacity: 0, duration: .5 }, ir), 0)
+        .fromTo('.hex', { opacity: .9 }, Object.assign({ opacity: 0, duration: .5 }, ir), 0)
+        .fromTo('.trio .t1', { xPercent: 0, autoAlpha: 1 }, Object.assign({ xPercent: -40, autoAlpha: 0, duration: .5 }, ir), 0)
+        .fromTo('.trio .t3', { xPercent: 0, autoAlpha: 1 }, Object.assign({ xPercent: 40, autoAlpha: 0, duration: .5 }, ir), 0)
+        .fromTo(t2, { x: 0, y: 0, scale: 1, borderRadius: 24 }, { x: function () { return c.x; }, y: function () { return c.y; }, scale: function () { return c.s; }, borderRadius: 0, immediateRender: false, ease: 'power1.inOut', duration: 1 }, 0)
+        .fromTo('.trio .t2 .veil', { opacity: 0 }, Object.assign({ opacity: 1, duration: .4 }, ir), .6)
+        .fromTo('.stage-cap p', { opacity: 0, y: 30 }, Object.assign({ opacity: 1, y: 0, duration: .35 }, ir), .7)
+        .to({}, { duration: .3 });
+    });
+
+
+    // Headings: masked word reveal
+    document.querySelectorAll('main h2').forEach(function (h) {
+      h.classList.remove('rv');
+      var words = split(h);
+      gsap.from(words, { yPercent: 115, duration: 1.1, ease: ease, stagger: .05, scrollTrigger: { trigger: h, start: 'top 88%' } });
+    });
+
+    // Numbers count up (with a thousands dot)
+    document.querySelectorAll('[data-count]').forEach(function (el) {
+      var end = +el.getAttribute('data-count'), sep = el.hasAttribute('data-sep'), o = { v: 0 };
+      var fmt = function (v) { v = Math.round(v); return sep ? String(v).replace(/\B(?=(\d{3})+(?!\d))/g, lang === 'en' ? ',' : '.') : String(v); };
+      el.textContent = fmt(0);
+      gsap.to(o, { v: end, duration: 1.8, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 90%' }, onUpdate: function () { el.textContent = fmt(o.v); } });
+    });
+
+    // Primer Fade: the step in the middle of the screen lights up and swaps the photo
+    var items = document.querySelectorAll('.story-steps li');
+    var frames = document.querySelectorAll('.frame img');
+    var count = document.querySelector('.frame .count b');
+    function show(i) {
+      items.forEach(function (li, k) { li.classList.toggle('on', k === i); });
+      var f = +items[i].getAttribute('data-img');
+      frames.forEach(function (im, k) { im.classList.toggle('on', k === f); });
+      if (count) count.textContent = '0' + (i + 1);
+    }
+    show(0);
+    items.forEach(function (li, i) {
+      ScrollTrigger.create({ trigger: li, start: 'top 60%', end: 'bottom 60%', onToggle: function (self) { if (self.isActive) show(i); } });
+    });
+
+    // Team portraits rise in; the featured barber gets a slow parallax
+    gsap.utils.toArray('.barber img').forEach(function (img) {
+      gsap.fromTo(img, { yPercent: -4 }, { yPercent: 4, ease: 'none', scrollTrigger: { trigger: img.parentNode, start: 'top bottom', end: 'bottom top', scrub: true } });
+    });
+
+    // Full-bleed scene: the frame opens, the photo settles
+    gsap.fromTo('.scene', { clipPath: 'inset(6% 5% 0% 5% round 24px)' }, { clipPath: 'inset(0% 0% 0% 0% round 0px)', ease: 'none', scrollTrigger: { trigger: '.scene', start: 'top bottom', end: 'top 15%', scrub: true } });
+    gsap.fromTo('.scene > img', { scale: 1.22 }, { scale: 1, ease: 'none', scrollTrigger: { trigger: '.scene', start: 'top bottom', end: 'bottom top', scrub: true } });
+    gsap.fromTo('.final > img', { scale: 1.15 }, { scale: 1, ease: 'none', scrollTrigger: { trigger: '.final', start: 'top bottom', end: 'bottom top', scrub: true } });
+
+    // Polaroid sways as it passes
+    gsap.fromTo('.polaroid', { rotate: -8, y: 60 }, { rotate: -2, y: -20, ease: 'none', scrollTrigger: { trigger: '.family', start: 'top bottom', end: 'bottom top', scrub: true } });
+
+    // Ticker leans with scroll speed
+    var row = document.querySelector('.ticker .row');
+    ScrollTrigger.create({ start: 0, end: 'max', onUpdate: function (self) { var v = gsap.utils.clamp(-12, 12, self.getVelocity() / 220); gsap.to(row, { skewX: -v, duration: .4, ease: 'power3.out', overwrite: true }); } });
+
+    // Chapter rail
+    var rail = document.querySelector('.rail');
+    if (rail) {
+      var pct = rail.querySelector('.pct');
+      ScrollTrigger.create({ start: 0, end: 'max', onUpdate: function (self) { pct.textContent = Math.round(self.progress * 100) + '%'; rail.classList.toggle('show', self.progress > 0.05 && self.progress < 0.97); } });
+      rail.querySelectorAll('a').forEach(function (a) {
+        var sec = document.querySelector(a.getAttribute('href'));
+        if (!sec) return;
+        ScrollTrigger.create({ trigger: sec, start: 'top 55%', end: 'bottom 55%', onToggle: function (self) { if (self.isActive) { rail.querySelectorAll('a').forEach(function (x) { x.classList.toggle('on', x === a); }); } } });
+      });
+    }
+
+    window.addEventListener('load', function () { ScrollTrigger.refresh(); });
+  })();
+</script>
